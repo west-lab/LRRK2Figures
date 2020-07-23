@@ -1,0 +1,92 @@
+---
+title: "Bubble Plot Figures"
+author: "Julia Ziaee"
+date: "5/19/2020"
+output: html_document
+---
+
+```{r packages}
+library(readr)
+library(tidyverse)
+library(broom)
+library(knitr)
+library(ggplot2)
+library(plyr)
+library(dplyr)
+library(plotly)
+library(tidyr)
+library(htmlwidgets)
+library(viridis)
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+Kernel_Data <- read_csv("~/LRRK2-Paper-Figures/Code/Bubble Plot Data - Bubble Plot Data.csv")
+```
+
+## Bubble Plot
+```{r}
+Kernel_Data$number <- as.numeric(Kernel_Data$number)
+Kernel_Data$revel <- as.double(Kernel_Data$revel)
+```
+
+```{r}
+
+mybreaks <- c(0.002, 0.046, 0.23, 0.715)
+myfix <- c(10, 30, 60, 100)
+mycols <- c('#2C6CEC', '#26AB1C', '#ED564D', '#AF67E4')
+
+fig_plot <- Kernel_Data %>% 
+  arrange(desc(freq)) %>%
+  mutate(status = factor(status, unique(status))) %>%
+  mutate(freq = as.numeric(freq))%>%
+  ggplot(aes(x=number, y=revel, color= status, size = freq)) +
+    scale_size(range = c(10,180), breaks = mybreaks, name = "Frequency") +
+    scale_color_manual(values = mycols) + 
+    geom_point(alpha=0.5) +
+    scale_y_continuous(name="REVEL Score", limits=c(0, 1)) +
+    scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527)) +
+  theme(legend.title = element_text(size = 20), legend.text = element_text(size = 20)) +
+      ggsave("ampPD_Bubble.pdf", width=50, height = 25, limitsize = FALSE)
+  
+
+
+fig_plot
+    
+```
+
+
+
+
+## Interactive 
+
+```{r}
+
+mycol <- c('#ED564D', '#2C6CEC', '#26AB1C','#AF67E4')
+
+pl <- Kernel_Data %>%
+  mutate(text = paste("Mutation: ", mutation_code, "\nFrequency: ", freq, "\nREVEL: ", revel, sep="")) %>%
+  
+  # Classic ggplot
+  ggplot(aes(x = number, y = revel, size = freq, color = status, text = text)) +
+    geom_point(alpha=0.5) +
+    scale_size(range = c(3,80), breaks = mybreaks, name = "") +
+    scale_color_manual(values = mycol, name = "") + 
+    scale_y_continuous(name="REVEL Score", limits=c(0, 1)) +
+    scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527)) + 
+  ggtitle("AMP-PD Variants in LRRK2 Participants") 
+# turn ggplot interactive with plotly
+pp <- ggplotly(pl, tooltip="text")
+
+pp <- pp %>% layout(legend= list(itemsizing='constant'))
+pp <- pp %>% layout(legend=list(title=list(text='<b> Status </b>')))
+
+
+pp
+
+# save the widget
+
+saveWidget(pp, file=paste0("ggplotlyBubblechart.html"))
+
+
+```
