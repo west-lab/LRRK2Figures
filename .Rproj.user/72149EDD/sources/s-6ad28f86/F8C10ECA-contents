@@ -1,0 +1,162 @@
+---
+title: "AA Line Diagrams"
+author: "Julia Ziaee"
+date: "6/25/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r load-packages}
+library(readr)
+library(tidyverse)
+library(broom)
+library(knitr)
+library(ggplot2)
+library(dplyr)
+```
+
+```{r load-data}
+LRRK2 <- read_csv('~/AMPPD/AA Changes/Amino Acid Property Values - Python Output.csv')
+vars <- read_csv('~/AMPPD/AA Changes/Copy of Amino Acid Property Values - New vals.csv')
+```
+
+
+
+```{r polarity}
+pol <- ggplot(data = LRRK2, aes(x = Position, y = Polarity)) + geom_line(size = 0.25) + scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1) + geom_vline(xintercept = vars$`AA Num`, linetype = "dotted", color = 'red') + geom_point(data = vars, x = vars$`AA Num`, y = vars$Polarity, col = "red" ) + geom_text(data = vars, aes(x = vars$`AA Num`, y = vars$Polarity, label = vars$Variant), nudge_y = -0.25, nudge_x = 3, cex = 2.5, angle = -30, font = 2)  +
+   ggsave("PolLine.pdf",width = 100, height = 20, limitsize = FALSE) 
+
+pol1 <- ggplot(data = LRRK2, aes(x = Position, y = Polarity)) + geom_line(size = 0.25) + scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1)   + geom_point(data = vars, aes(x = vars$`AA Num`, y = vars$Polarity, col = "red", text = paste("Variant:", vars$Variant) ))
+
+pollar <-ggplotly(p = pol1, layerData = 2, tooltip = c("text", "Polarity" )) 
+saveWidget(widget = pollar, file = "PolLine.html")
+```
+
+```{r isoe}
+iso <- ggplot(data = LRRK2, aes(x = Position, y = `Isoelectric Point`)) + geom_line(size = 0.25)  + scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1) + geom_vline(xintercept = vars$`AA Num`, linetype = "dotted", color = 'red') + geom_point(data = vars, x = vars$`AA Num`, y = vars$`Isoelectric Point`, col = "red" ) + geom_text(data = vars, aes(x = vars$`AA Num`, y = vars$`Isoelectric Point`, label = vars$Variant), nudge_y = -0.3, nudge_x = 5, cex = 2.5, angle = -30, font = 2 ) +
+   ggsave("IsoLine.pdf",width = 100, height = 20, limitsize = FALSE)
+
+iso1 <- ggplot(data = LRRK2, aes(x = Position, y = `Isoelectric Point`)) + geom_line(size = 0.25)  + scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1) +  geom_point(data = vars, aes(x = vars$`AA Num`, y = vars$`Isoelectric Point`, col = "red", text = paste("Variant:", vars$Variant))) 
+
+isoelec <-ggplotly(p = iso1, layerData = 2, tooltip = c("text", "`Isoelectric Point`" )) 
+saveWidget(widget = isoelec, file = "IsoLine.html")
+
+```
+
+```{r equi}
+equi <- ggplot(data = LRRK2, aes(x = Position, y = `Equilibrium Constant`)) + geom_step(size = 0.25) + scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1) + geom_vline(xintercept = vars$`AA Num`, linetype = "dotted", color = 'red') + geom_point(data = vars, x = vars$`AA Num`, y = vars$`Equilibrium Constant`, col = "red" ) + geom_text(data = vars, aes(x = vars$`AA Num`, y = vars$`Equilibrium Constant`, label = vars$Variant), nudge_y = -0.025, nudge_x = 7, cex = 2.5, angle = -30, font = 2) +
+   ggsave("Equilib.pdf",width = 100, height = 20, limitsize = FALSE)
+
+equi1 <- ggplot(data = LRRK2, aes(x = Position, y = `Equilibrium Constant`)) + geom_step(size = 0.25) + scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1) + geom_point(data = vars, aes(x = vars$`AA Num`, y = vars$`Equilibrium Constant`, col = "red", text = paste("Variant:", vars$Variant)) ) 
+
+
+equil <-ggplotly(p = equi1, layerData = 2, tooltip = c("text", "`Equilibrium Constant`" )) 
+saveWidget(widget = equil, file = "Equilib.html")
+
+```
+```{r weight}
+weight <- ggplot(data = LRRK2, aes(x = Position, y = `Molecular Weight`)) + geom_step(size = 0.25) + scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1) + geom_vline(xintercept = vars$`AA Num`, linetype = "dotted", color = 'red') + geom_point(data = vars, x = vars$`AA Num`, y = vars$`Molecular Weight`, col = "red" ) + geom_text(data = vars, aes(x = vars$`AA Num`, y = vars$`Molecular Weight`, label = vars$Variant), nudge_y = -0.025, nudge_x = 7, cex = 2.5, angle = -30, font = 2) +
+   ggsave("Weight.pdf",width = 100, height = 20, limitsize = FALSE)
+
+
+weight1 <- ggplot(data = LRRK2, aes(x = Position, y = `Molecular Weight`)) + geom_step(size = 0.25) + scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1) + geom_point(data = vars, aes(x = vars$`AA Num`, y = vars$`Molecular Weight`, col = "red", text = paste("Variant:", vars$Variant)) ) 
+
+
+weig <-ggplotly(p = weight1, layerData = 2, tooltip = c("text", "`Molecular Weight`" )) 
+saveWidget(widget = weig, file = "Weight.html")
+
+
+```
+
+```{r bulk}
+bulk <- ggplot(data = LRRK2, aes(x = Position, y = Bulkiness)) + geom_step(size = 0.25) + scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1) + geom_point(data = vars, x = vars$`AA Num`, y = vars$Bulkiness, col = "red" ) + geom_vline(xintercept = vars$`AA Num`, linetype = "dotted", color = 'red') + geom_text(data = vars, aes(x = vars$`AA Num`, y = vars$Bulkiness, label = vars$Variant), nudge_y = -0.025, nudge_x = 7, cex = 2.5, angle = -30, font = 2) +
+   ggsave("Bulk.pdf",width = 100, height = 20, limitsize = FALSE)
+
+bulk1 <- ggplot(data = LRRK2, aes(x = Position, y = Bulkiness)) + geom_step(size = 0.25) + scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1) + geom_point(data = vars, aes(x = vars$`AA Num`, y = vars$Bulkiness, col = "red", text = paste("Variant:", vars$Variant)) ) 
+
+
+bulkki <-ggplotly(p = bulk1, layerData = 2, tooltip = c("text", "Bulkiness" )) 
+saveWidget(widget = bulkki, file = "Bulkiness.html")
+
+```
+
+
+```{r buried}
+bureid <- ggplot(data = LRRK2, aes(x = Position, y = Buriedness)) + geom_step(size = 0.25) + scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1) + geom_vline(xintercept = vars$`AA Num`, linetype = "dotted", color = 'red') + geom_point(data = vars, x = vars$`AA Num`, y = vars$Buriedness, col = "red" ) + geom_text(data = vars, aes(x = vars$`AA Num`, y = vars$Buriedness, label = vars$Variant), nudge_x = 7, cex = 2.5, angle = -30, font = 2) +
+   ggsave("Buried.pdf",width = 100, height = 20, limitsize = FALSE)
+
+bureid1 <- ggplot(data = LRRK2, aes(x = Position, y = Buriedness)) + geom_step(size = 0.25) + scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1) +geom_point(data = vars, aes(x = vars$`AA Num`, y = vars$Buriedness, col = "red", text = paste("Variant:", vars$Variant)  )) 
+
+
+
+
+bur <-ggplotly(p = bureid1, layerData = 2, tooltip = c("text", "Buriedness" )) 
+saveWidget(widget = bur, file = "Buriedness.html")
+
+```
+
+```{r solv}
+solv <- ggplot(data = LRRK2, aes(x = Position, y = `Solvent-accessible Reduction Ratio`)) + geom_step(size = 0.25)  + scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1) + geom_vline(xintercept = vars$`AA Num`, linetype = "dotted", color = 'red') +  geom_point(data = vars, x = vars$`AA Num`, y = vars$`Solvent-Accessible Reduction Ratio`, col = "red" ) + geom_text(data = vars, aes(x = vars$`AA Num`, y = vars$`Solvent-Accessible Reduction Ratio`, label = vars$Variant), nudge_y = -0.1, nudge_x = 7, cex = 2.5, angle = -30, font = 2) +
+   ggsave("Solv.pdf",width = 100, height = 20, limitsize = FALSE)
+
+
+solv1 <- ggplot(data = LRRK2, aes(x = Position, y = `Solvent-accessible Reduction Ratio`)) + geom_step(size = 0.25)  + scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1) +  geom_point(data = vars, aes(x = vars$`AA Num`, y = vars$`Solvent-Accessible Reduction Ratio`, col = "red", text = paste("Variant:", vars$Variant))) 
+
+
+solve <-ggplotly(p = solv1, layerData = 2, tooltip = c("text", "`Solvent-accessible Reduction Ratio`" )) 
+saveWidget(widget = solve, file = "SolvAccReduc.html")
+
+```
+
+```{r hydro}
+hydro <- ggplot(data = LRRK2, aes(x = Position, y = `Combined Surrounding Hydrophobicity`)) + geom_step(size = 0.25) + scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1) + geom_vline(xintercept = vars$`AA Num`, linetype = "dotted", color = 'red') +  geom_point(data = vars, x = vars$`AA Num`, y = vars$`Combined Surrounding Hydrophobicity`, col = "red" ) + geom_text(data = vars, aes(x = vars$`AA Num`, y = vars$`Combined Surrounding Hydrophobicity`, label = vars$Variant), nudge_y = -0.1, nudge_x = 7, cex = 2.5, angle = -30, font = 2) +
+   ggsave("hydro.pdf",width = 100, height = 20, limitsize = FALSE)
+
+
+hydro1 <- ggplot(data = LRRK2, aes(x = Position, y = `Combined Surrounding Hydrophobicity`)) + geom_step(size = 0.25) + scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1) +  geom_point(data = vars, aes(x = vars$`AA Num`, y = vars$`Combined Surrounding Hydrophobicity`, col = "red", text = paste("Variant:", vars$Variant)) ) 
+
+
+hyd <-ggplotly(p = hydro1, layerData = 2, tooltip = c("text", "`Combined Surrounding Hydrophobicity`" )) 
+saveWidget(widget = hyd, file = "hydrophob.html")
+```
+
+```{r vol}
+vol <- ggplot(data = LRRK2, aes(x = Position, y = Volume)) + geom_step(size = 0.25) + scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1) + geom_vline(xintercept = vars$`AA Num`, linetype = "dotted", color = 'red') +  geom_point(data = vars, x = vars$`AA Num`, y = vars$Volume, col = "red" ) + geom_text(data = vars, aes(x = vars$`AA Num`, y = vars$Volume, label = vars$Variant), nudge_y = -0.2, nudge_x = 7, cex = 2.5, angle = -30, font = 2) +
+   ggsave("vol.pdf",width = 100, height = 20, limitsize = FALSE)
+
+vol1 <- ggplot(data = LRRK2, aes(x = Position, y = Volume)) + geom_step(size = 0.25) + scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1) +  geom_point(data = vars, aes(x = vars$`AA Num`, y = vars$Volume, col = "red", text = paste("Variant:", vars$Variant)) ) 
+
+
+volu <-ggplotly(p = vol1, layerData = 2, tooltip = c("text", "Volume" )) 
+saveWidget(widget = volu, file = "volume.html")
+
+```
+
+```{r shape}
+shape <- ggplot(data = LRRK2, aes(x = Position, y = Shape)) + geom_step(size = 0.25) + scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1) + geom_vline(xintercept = vars$`AA Num`, linetype = "dotted", color = 'red') +  geom_point(data = vars, x = vars$`AA Num`, y = vars$Shape, col = "red" ) + geom_text(data = vars, aes(x = vars$`AA Num`, y = vars$Shape, label = vars$Variant), nudge_y = -0.03, nudge_x = 6, cex = 2.5, angle = -30, font = 2) + 
+   ggsave("shap3.pdf",width = 100, height = 20, limitsize = FALSE)
+
+
+shape1 <- ggplot(data = LRRK2, aes(x = Position, y = Shape)) + geom_step(size = 0.25) + scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1) + geom_point(data = vars, aes(x = vars$`AA Num`, y = vars$Shape, col = "red", text = paste("Variant:", vars$Variant))) 
+
+
+
+sh <-ggplotly(p = shape1, layerData = 2, tooltip = c("text", "Shape" )) 
+saveWidget(widget = sh, file = "shape.html")
+
+```
+```{r flex}
+flex <- ggplot(data = LRRK2, aes(x = Position, y = Flexibility)) + geom_step(size = 0.25) + scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1) + geom_vline(xintercept = vars$`AA Num`, linetype = "dotted", color = 'red') +  geom_point(data = vars, x = vars$`AA Num`, y = vars$Flexibility, col = "red" ) + geom_text(data = vars, aes(x = vars$`AA Num`, y = vars$Flexibility, label = vars$Variant), nudge_y = -0.03, nudge_x = 6, cex = 2.5, angle = -30, font = 2) + 
+   ggsave("flex.pdf",width = 100, height = 20, limitsize = FALSE)
+
+
+flex1 <- ggplot(data = LRRK2, aes(x = Position, y = Flexibility)) + geom_step(size = 0.25) + scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1) +   geom_point(data = vars, aes(x = vars$`AA Num`, y = vars$Flexibility, col = "red", text = paste("Variant:", vars$Variant)) ) 
+
+
+flexonem <-ggplotly(p = flex1, layerData = 2, tooltip = c("text", "Flexibility" )) 
+saveWidget(widget = flexonem, file = "flexibility.html")
+
+```
