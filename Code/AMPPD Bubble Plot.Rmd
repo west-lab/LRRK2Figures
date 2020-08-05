@@ -62,10 +62,12 @@ fig_plot
 
 ```{r}
 
-mycol <- c('#ED564D', '#2C6CEC', '#26AB1C','#AF67E4')
+mybreaks <- c(0.002, 0.046, 0.23, 0.715)
+myfix <- c(10, 30, 60, 100)
+mycols <- c('#2C6CEC', '#26AB1C', '#ED564D', '#AF67E4')
 
 pl <- Kernel_Data %>%
-  mutate(text = paste("Mutation: ", mutation_code, "\nFrequency: ", freq, "\nREVEL: ", revel, sep="")) %>%
+  mutate(text = paste("Variant: ", mutation_code, "\nFrequency: ", freq, "\nREVEL: ", revel, sep="")) %>%
   
   # Classic ggplot
   ggplot(aes(x = number, y = revel, size = freq, color = status, text = text)) +
