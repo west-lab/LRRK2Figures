@@ -1,0 +1,114 @@
+---
+title: "Bubble Plot"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load packages & data
+
+```{r load-packages, message=FALSE}
+library(tidyverse)
+library(nnet)
+library(knitr)
+library(tidyr)
+library(plotly)
+library(ggplot2)
+library(dplyr)
+```
+
+```{r load-data}
+LRRK2_gnomAD_frequencies_For_figure <- read_csv("LRRK2 gnomAD frequencies - For figure.csv")
+
+data <- LRRK2_gnomAD_frequencies_For_figure %>% mutate("AA #" = as.numeric(LRRK2_gnomAD_frequencies_For_figure$`AA #`), "REVEL score" = as.numeric(LRRK2_gnomAD_frequencies_For_figure$`REVEL score`), Model = rownames(data))
+```
+```{r x}
+data$pop = data$`pop freq. GnomAD`
+
+data$pop[data$`pop freq. GnomAD` <= .000008] <- 0.0
+data$pop[data$`pop freq. GnomAD` > .000008 & data$`pop freq. GnomAD` <= .000015] <- 1.0
+data$pop[data$`pop freq. GnomAD` > .000015 & data$`pop freq. GnomAD` <= 0.00005] <- 2.0
+data$pop[data$`pop freq. GnomAD` > 0.00005] <- 3.0
+data$pop <- as.factor(data$pop)
+```
+
+```{r graph}
+plot1 <- ggplot(data, aes(data$`AA #`, data$`REVEL score`, size = data$`pop freq. GnomAD`))  + geom_point(alpha = 0.5) + labs(x = "AA #", y = "REVEL score", title = "gnomAD REVEL Bubble Plot")  + scale_size(range = c(.1,25), breaks = c(.000008, .000015, 0.00005, 0.0001), guide = guide_legend(title = "Pop Freq"))
+
+par(las = 3)
+
+plot1
+```
+```{r graph1}
+plot1 <- ggplot(data, aes(data$`AA #`, data$`REVEL score`, size = data$`pop freq. GnomAD`))  + geom_point(alpha = 0.5) + labs(x = "AA #", y = "REVEL score", title = "gnomAD REVEL Bubble Plot")  + scale_size_binned(range = c(.1,10), breaks = c(.000008, .000015, 0.00005, 0.0001), guide = guide_legend(title = "Pop Freq"))
+
+par(las = 3)
+
+plot1
+```
+
+{r graph1}
+plot1 <- ggplot(data, aes(data$`AA #`, data$`REVEL score`, size = data$pop))  + geom_point(alpha = 0.5) + labs(x = "AA #", y = "REVEL score", title = "gnomAD REVEL Bubble Plot") + scale_size(range = c(1.0,10.0), breaks = c(0.0, 1.0, 2.0, 3.0), guide = guide_legend(title = "Pop Freq"))
+
+par(las = 3)
+
+plot1
+
+
+```{r scale}
+data$pop = data$`pop freq. GnomAD`
+
+data$pop[data$`pop freq. GnomAD` <= .000008] <- 0.0
+data$pop[data$`pop freq. GnomAD` > .000008 & data$`pop freq. GnomAD` <= .000015] <- 1.0
+data$pop[data$`pop freq. GnomAD` > .000015 & data$`pop freq. GnomAD` <= 0.00005] <- 2.0
+data$pop[data$`pop freq. GnomAD` > 0.00005] <- 3.0
+data$pop <- as.factor(data$pop)
+```
+
+```{r}
+plot1 <- ggplot(data, aes(data$`AA #`, data$`REVEL score`, size = data$`pop freq. GnomAD`))  + geom_point(alpha = 0.5) + labs(x = "AA #", y = "REVEL score", title = "gnomAD REVEL Bubble Plot")  + scale_size(range = c(.1,25), breaks = c(.000008, .000015, 0.00005, 0.0001), guide = guide_legend(title = "Pop Freq"))
+
+par(las = 3)
+
+plot1
+```
+
+{r graph1}
+plot1 <- ggplot(data, aes(data$`AA #`, data$`REVEL score`, size = data$pop))  + geom_point(alpha = 0.5) + labs(x = "AA #", y = "REVEL score", title = "gnomAD REVEL Bubble Plot") + scale_size(range = c(1.0,10.0), breaks = c(0.0, 1.0, 2.0, 3.0), guide = guide_legend(title = "Pop Freq"))
+
+par(las = 3)
+
+plot1
+
+
+
+{r graph2}
+plot1 <- ggplot(data, aes(data$`AA #`, data$`REVEL score`, size = data$pop))  + geom_point(alpha = 0.5) + labs(x = "AA #", y = "REVEL score", title = "gnomAD REVEL Bubble Plot") + scale_size(range = c(1,10), breaks = c(0, 1, 2, 3), guide = guide_legend(title = "Pop Freq"))
+
+par(las = 3)
+
+plot1
+
+
+
+### Julia's smart code
+
+
+```{r new}
+mybreaks <-c(0.002, 0.046, 0.23,1)
+myfix <- c(10.0,20.0,60.0,100.0)
+
+fig_plot <- data %>%
+  arrange(desc(data$`pop freq. GnomAD`)) %>%
+  mutate(freq = as.numeric(data$`pop freq. GnomAD`)) %>%
+ggplot(aes(x = data$`AA #`, y = data$`REVEL score`, size = freq)) + scale_size(range = c(3.0,80.0), breaks = mybreaks, name = "Frequency") + geom_point(alpha = 0.5) + scale_y_continuous(name = "REVEL score", limits = c(0,1)) + scale_x_continuous(name = "Amino Acid Number", limits = c(0,2527)) + theme(legend.title = element_text(size = 20), legend.text = element_text(size = 20)) + xlab("Amino Acid Number") + ggsave("bubble_gnomAD.pdf", width = 35.0, height = 20.0, limitsize = FALSE)
+
+par(las = 3)
+
+fig_plot
+```
