@@ -1,6 +1,0 @@
-"0","hydro1 <- ggplot(data = LRRK2, aes(x = Position, y = `Combined Surrounding Hydrophobicity`)) + geom_step(size = 0.25) + scale_x_continuous(name = ""Amino Acid Number"", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1) +  geom_point(data = vars, aes(x = vars$`AA Num`, y = vars$`Combined Surrounding Hydrophobicity`, col = ""red"", text = paste(""Variant:"", vars$Variant)) ) "
-"2","Ignoring unknown aesthetics: text"
-"0","hyd <-ggplotly(p = hydro1, layerData = 2, tooltip = c(""text"", ""`Combined Surrounding Hydrophobicity`"" )) "
-"2","Aspect ratios aren't yet implemented, but you can manually set a suitable height/width"
-"2","Aspect ratios aren't yet implemented, but you can manually set a suitable height/width"
-"0","saveWidget(widget = hyd, file = ""hydrophob.html"")"

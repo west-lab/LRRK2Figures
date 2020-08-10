@@ -1,3 +1,0 @@
-"0","iso <- ggplot(data = LRRK2, aes(x = Position, y = `Isoelectric Point`)) + geom_line(size = 0.25)  + scale_x_continuous(name = ""Amino Acid Number"", limits = c(0, 2527), breaks = seq(0, 2527, by = 30)) + theme(aspect.ratio = 0.1) + geom_vline(xintercept = vars$`AA Num`, linetype = ""dotted"", color = 'red') + geom_point(data = vars, x = vars$`AA Num`, y = vars$`Isoelectric Point`, col = ""red"" ) + geom_text(data = vars, aes(x = vars$`AA Num`, y = vars$`Isoelectric Point`, label = vars$Variant), nudge_y = -0.3, nudge_x = 5, cex = 2.5, angle = -30, font = 2 ) +"
-"0","   ggsave(""IsoLine.pdf"",width = 100, height = 20, limitsize = FALSE)"
-"2","Ignoring unknown parameters: font"
