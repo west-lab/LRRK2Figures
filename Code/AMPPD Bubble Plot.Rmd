@@ -88,7 +88,7 @@ pp
 
 # save the widget
 
-saveWidget(pp, file=paste0("AMP-PD_LRRK2_Variant_Figure.html"))
+saveWidget(pp, file=paste0("AMP-PD_LRRK2_Variant_Figure_int.html"))
 
 
 ```
