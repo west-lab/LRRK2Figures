@@ -19,10 +19,7 @@ library(htmlwidgets)
 library(viridis)
 ```
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-Kernel_Data <- read_csv("~/LRRK2Figures/Code/Bubble Plot Data - Bubble Plot Data.csv")
-```
+
 
 ## Bubble Plot
 ```{r}
@@ -73,7 +70,7 @@ pl <- Kernel_Data %>%
   ggplot(aes(x = number, y = revel, size = freq, color = status, text = text)) +
     geom_point(alpha=0.5) +
     scale_size(range = c(3,80), breaks = mybreaks, name = "") +
-    scale_color_manual(values = mycol, name = "") + 
+    scale_color_manual(values = mycols, name = "") + 
     scale_y_continuous(name="REVEL Score", limits=c(0, 1)) +
     scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527)) + 
   ggtitle("AMP-PD Variants in LRRK2 Participants") 
