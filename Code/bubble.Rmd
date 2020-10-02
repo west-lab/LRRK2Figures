@@ -1,0 +1,214 @@
+---
+title: "Bubble Plot"
+output:
+  html_document:
+    df_print: paged
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load packages & data
+
+```{r load-packages, message=FALSE}
+library(tidyverse)
+library(nnet)
+library(knitr)
+library(tidyr)
+library(plotly)
+library(ggplot2)
+library(dplyr)
+library(htmlwidgets)
+```
+
+```{r load-data}
+LRRK2_gnomAD_frequencies_For_figure <- read_csv("LRRK2 gnomAD frequencies - For figure.csv")
+
+race_frequencies_Sheet <- read_csv("race frequencies - Sheet1.csv")
+
+race_frequencies_Sheet1 <- race_frequencies_Sheet %>% mutate("AA #" = as.numeric(race_frequencies_Sheet$`AA #`), "REVEL score" = as.numeric(race_frequencies_Sheet$`REVEL score`), "Allele Frequency Latino" = as.numeric(race_frequencies_Sheet$`Allele Frequency Latino`))
+
+race_frequencies_Sheet2 <- read_csv("race frequencies - Sheet1-2.csv")
+
+race_frequencies_Sheet_final <- race_frequencies_Sheet2 %>% mutate("AA #" = as.numeric(race_frequencies_Sheet2$`AA #`), "REVEL score" = as.numeric(race_frequencies_Sheet2$`REVEL`))
+
+REVEL_and_race <- read_csv("REVEL and Race Data - Sheet1.csv")
+RevRace <- REVEL_and_race %>% mutate("REVEL score" = as.numeric(REVEL_and_race$`REVEL`), "Allele Frequency Latino" = as.numeric(REVEL_and_race$`Allele Frequency Latino`), "Allele Frequency African" = as.numeric(REVEL_and_race$`Allele Frequency African`), "Allele Frequency Ashkenazi Jewish" = as.numeric(REVEL_and_race$`Allele Frequency Ashkenazi Jewish`), "Allele Frequency East Asian" = as.numeric(REVEL_and_race$`Allele Frequency East Asian`),"Allele Frequency European (Finnish)" = as.numeric(REVEL_and_race$`Allele Frequency European (Finnish)`),"Allele Count Frequency European (non-Finnish)" = as.numeric(REVEL_and_race$`Allele Count Frequency European (non-Finnish)`),"Allele Frequency Other" = as.numeric(REVEL_and_race$`Allele Frequency Other`), "Allele Frequency South Asian" = as.numeric(REVEL_and_race$`Allele Frequency South Asian`))
+
+data <- LRRK2_gnomAD_frequencies_For_figure %>% mutate("AA #" = as.numeric(LRRK2_gnomAD_frequencies_For_figure$`AA #`), "REVEL score" = as.numeric(LRRK2_gnomAD_frequencies_For_figure$`REVEL score`), Model = rownames(data))
+```
+
+, "Allele Frequency Latino" = as.numeric(race_frequencies_Sheet2$`Allele Frequency Latino`), "Allele Frequency African" = as.numeric(race_frequencies_Sheet2$`Allele Frequency African`), "Allele Frequency Ashkenazi Jewish" = as.numeric(race_frequencies_Sheet2$`Allele Frequency Ashkenazi Jewish`), "Allele Frequency East Asian" = as.numeric(race_frequencies_Sheet2$`Allele Frequency East Asian`),"Allele Frequency European (Finnish)" = as.numeric(race_frequencies_Sheet2$`Allele Frequency European (Finnish)`),"Allele Frequency European (non-Finnish)" = as.numeric(race_frequencies_Sheet2$`Allele Count Frequency European (non-Finnish)`),"Allele Frequency Other" = as.numeric(race_frequencies_Sheet2$`Allele Frequency Other`), "Allele Frequency South Asian" = as.numeric(race_frequencies_Sheet2$`Allele Frequency South Asian`)
+```{r x}
+data$pop = data$`pop freq. GnomAD`
+
+data$pop[data$`pop freq. GnomAD` <= .000008] <- 0.0
+data$pop[data$`pop freq. GnomAD` > .000008 & data$`pop freq. GnomAD` <= .000015] <- 1.0
+data$pop[data$`pop freq. GnomAD` > .000015 & data$`pop freq. GnomAD` <= 0.00005] <- 2.0
+data$pop[data$`pop freq. GnomAD` > 0.00005] <- 3.0
+data$pop <- as.factor(data$pop)
+```
+
+```{r graph}
+plot1 <- ggplot(data, aes(data$`AA #`, data$`REVEL score`, size = data$`pop freq. GnomAD`))  + geom_point(alpha = 0.5) + labs(x = "AA #", y = "REVEL score", title = "gnomAD REVEL Bubble Plot")  + scale_size(range = c(.1,25), breaks = c(.000008, .000015, 0.00005, 0.0001), guide = guide_legend(title = "Pop Freq"))
+
+par(las = 3)
+
+plot1
+```
+```{r graph1}
+plot1 <- ggplot(data, aes(data$`AA #`, data$`REVEL score`, size = data$`pop freq. GnomAD`))  + geom_point(alpha = 0.5) + labs(x = "AA #", y = "REVEL score", title = "gnomAD REVEL Bubble Plot")  + scale_size_binned(range = c(.1,10), breaks = c(.000008, .000015, 0.00005, 0.0001), guide = guide_legend(title = "Pop Freq"))
+
+par(las = 3)
+
+plot1
+```
+
+{r graph1}
+plot1 <- ggplot(data, aes(data$`AA #`, data$`REVEL score`, size = data$pop))  + geom_point(alpha = 0.5) + labs(x = "AA #", y = "REVEL score", title = "gnomAD REVEL Bubble Plot") + scale_size(range = c(1.0,10.0), breaks = c(0.0, 1.0, 2.0, 3.0), guide = guide_legend(title = "Pop Freq"))
+
+par(las = 3)
+
+plot1
+
+
+```{r scale}
+data$pop = data$`pop freq. GnomAD`
+
+data$pop[data$`pop freq. GnomAD` <= .000008] <- 0.0
+data$pop[data$`pop freq. GnomAD` > .000008 & data$`pop freq. GnomAD` <= .000015] <- 1.0
+data$pop[data$`pop freq. GnomAD` > .000015 & data$`pop freq. GnomAD` <= 0.00005] <- 2.0
+data$pop[data$`pop freq. GnomAD` > 0.00005] <- 3.0
+data$pop <- as.factor(data$pop)
+```
+
+```{r}
+plot1 <- ggplot(data, aes(data$`AA #`, data$`REVEL score`, size = data$`pop freq. GnomAD`))  + geom_point(alpha = 0.5) + labs(x = "AA #", y = "REVEL score", title = "gnomAD REVEL Bubble Plot")  + scale_size(range = c(.1,25), breaks = c(.000008, .000015, 0.00005, 0.0001), guide = guide_legend(title = "Pop Freq"))
+
+par(las = 3)
+
+plot1
+```
+
+{r graph1}
+plot1 <- ggplot(data, aes(data$`AA #`, data$`REVEL score`, size = data$pop))  + geom_point(alpha = 0.5) + labs(x = "AA #", y = "REVEL score", title = "gnomAD REVEL Bubble Plot") + scale_size(range = c(1.0,10.0), breaks = c(0.0, 1.0, 2.0, 3.0), guide = guide_legend(title = "Pop Freq"))
+
+par(las = 3)
+
+plot1
+
+
+
+{r graph2}
+plot1 <- ggplot(data, aes(data$`AA #`, data$`REVEL score`, size = data$pop))  + geom_point(alpha = 0.5) + labs(x = "AA #", y = "REVEL score", title = "gnomAD REVEL Bubble Plot") + scale_size(range = c(1,10), breaks = c(0, 1, 2, 3), guide = guide_legend(title = "Pop Freq"))
+
+par(las = 3)
+
+plot1
+
+```{r more-data}
+LRRK2_gnomAD_frequencies_For_figure1 <- read_csv("LRRK2 gnomAD frequencies - Sheet1.csv")
+
+data1 <- LRRK2_gnomAD_frequencies_For_figure1 %>% mutate("AA #" = as.numeric(LRRK2_gnomAD_frequencies_For_figure1$`AA position`), "REVEL score" = as.numeric(LRRK2_gnomAD_frequencies_For_figure1$`REVEL`), Model = rownames(data))
+```
+
+
+
+
+
+
+```{r new}
+mybreaks <-c(0.005, 0.046, 0.23,1.0)
+myfix <- c(10.0,20.0,60.0,100.0)
+
+fig_plot <- data %>%
+  arrange(desc(data$`pop freq. GnomAD`)) %>%
+  mutate(freq = as.numeric(data$`pop freq. GnomAD`)) %>%
+ggplot(aes(x = data$`AA #`, y = data$`REVEL score`, size = freq)) + scale_size(range = c(10,80.0), breaks = mybreaks, name = "Frequency") + geom_point(alpha = 0.5) + scale_y_continuous(name = "REVEL score", limits = c(0,1)) + scale_x_continuous(name = "Amino Acid Number", limits = c(0,2527)) + theme(legend.title = element_text(size = 20), legend.text = element_text(size = 20)) + xlab("Amino Acid Number") + labs(title = "gnnomAD AA vs. REVEL with Freq") + ggsave("bubble_gnomAD.pdf", width = 35.0, height = 20.0, limitsize = FALSE)
+
+par(las = 3)
+
+fig_plot
+```
+
+
+```{r inter}
+pl<- data1 %>%
+  mutate(text = paste("Mutation: ", mutation_code, "\nFrequency: ", data1$`pop freq. GnomAD`, "\nREVEL score: ", REVEL, sep = "")) %>%
+  ggplot(aes(x = data1$`AA #`, y = data1$`REVEL score`, size = data1$`pop freq. GnomAD`, text = text)) + scale_size(range = c(3.0,80.0), breaks = mybreaks, name = "Frequency") + scale_y_continuous(name = "REVEL score", limits = c(0,1)) + scale_x_continuous(name = "Amino Acid Number", limits = c(0,2527)) + theme(legend.title = element_text(size = 20), legend.text = element_text(size = 20)) + xlab("Amino Acid Number") + labs(title = "gnnomAD AA vs. REVEL with Freq") + geom_point(alpha = 0.5) + ggsave("bubble.pdf", width = 25, height = 15, limitsize = FALSE)
+
+pl
+
+pp <- ggplotly(pl, tooltip = "text")
+pp
+
+saveWidget(pp, file = paste0("ggplotlyBubbleChart.html"))
+
+
+```
+
+
+## allele frequencies have different rounding points so use more accurate allele freq (.y)
+# merge two data frames by ID
+total <- merge(data1, gnomAD_v2_1_1_all_missense ,by= c("Protein Consequence", "Allele Number", "Transcript Consequence", "Allele Count", "Homozygote Count"))
+
+final <- merge(RevRace, race_frequencies_Sheet1, by = c("REVEL score", "Allele Frequency African", "Allele Frequency African", "Allele Frequency South Asian", "Allele Frequency Other", "Allele Count Frequency European (non-Finnish)", "Allele Frequency European (Finnish)", "Allele Frequency East Asian", "Allele Frequency Ashkenazi Jewish"))
+
+
+
+
+## race frequency
+
+
+```{r}
+mybreaks <-c(0.005, 0.046, 0.23,1.0)
+myfix <- c(10.0,20.0,60.0,100.0)
+mycol <- c('#EF5350', '#EC407A', '#2CD931', '#5E35B1', '#2CD9D1', '#2196F3', '#263238', '#00796B', '#FBC02D')
+mybreakscol <-c(0.00, 0.5, 1.0)
+
+#, color = race_frequencies_Sheet1$`Allele Frequency Latino`)
+
+fig_plot1 <- race_frequencies_Sheet_final %>%
+  mutate(text = paste("Mutation: ", race_frequencies_Sheet_final$mutation_code, "\nFrequency: ", race_frequencies_Sheet_final$`pop freq. GnomAD`, "\nREVEL score: ", race_frequencies_Sheet_final$REVEL,"\nRace: ", race_frequencies_Sheet_final$Race, sep = "")) %>%
+  arrange(desc(race_frequencies_Sheet_final$`Allele Frequency.y`)) %>%
+  mutate(freq = as.numeric(race_frequencies_Sheet_final$`Allele Frequency.y`)) %>%
+ggplot(aes(x = race_frequencies_Sheet_final$`AA #`, y = race_frequencies_Sheet_final$`REVEL score`, size = freq, color = race_frequencies_Sheet_final$`Race`)) + scale_size(range = c(3.0,80.0), breaks = mybreaks, name = "Frequency") + scale_y_continuous(name = "REVEL score", limits = c(0,1)) + scale_x_continuous(name = "Amino Acid Number", limits = c(0,2527)) + scale_color_manual(values = mycol, name = "Race") + theme(legend.title = element_text(size = 15), legend.text = element_text(size = 15)) + xlab("Amino Acid Number") + labs(title = "gnomAD AA vs. REVEL with Freq")+geom_point(alpha = 0.5) + ggsave("bubble_race_frequency.pdf", width = 25, height = 15, limitsize = FALSE)
+
+par(las = 3)
+
+fig_plot1
+```
+
+```{r}
+  
+inter1 <- ggplotly(fig_plot1, tooltip = "text", width = 1000, height = 500)
+inter1
+
+saveWidget(inter1, file = paste0("ggplotlyBubbleChartRaceFreq2.html"))
+
+```
+
+
+
+
+
+ ggsave("bubble_gnomAD_total.pdf", width = 35.0, height = 20.0, limitsize = FALSE) + 
+
+```{r intero}
+pl<- data1 %>%
+  mutate(text = paste("Mutation: ", mutation_code, "\nFrequency: ", data1$`pop freq. GnomAD`, "\nREVEL score: ", REVEL, sep = "")) %>%
+  ggplot(aes(x = data1$`AA #`, y = data1$`REVEL score`, size = data1$`pop freq. GnomAD`, text = text)) + scale_size(range = c(3.0,80.0), breaks = mybreaks, name = "Frequency") + scale_y_continuous(name = "REVEL score", limits = c(0,1)) + scale_x_continuous(name = "Amino Acid Number", limits = c(0,2527)) + theme(legend.title = element_text(size = 20), legend.text = element_text(size = 20)) + xlab("Amino Acid Number") + labs(title = "gnnomAD AA vs. REVEL with Freq") + geom_point(alpha = 0.5)
+
+pl
+
+pp <- ggplotly(pl, tooltip = "text")
+pp
+
+saveWidget(pp, file = paste0("ggplotlyBubbleChart.html"))
+
+
+```
+
+
