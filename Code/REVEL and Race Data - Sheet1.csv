@@ -1,0 +1,1284 @@
+REVEL,Allele Frequency African,Allele Frequency Latino,Allele Frequency Ashkenazi Jewish,Allele Frequency East Asian,Allele Frequency European (Finnish),Allele Count Frequency European (non-Finnish),Allele Frequency Other,Allele Frequency South Asian,Race
+NA,0,0.25,0,0,0,0.5,0,0.25,Multiracial
+NA,0,0,0,0,0,1,0,0,European (non-Finnish)
+NA,0,0,0,1,0,0,0,0,East Asian
+NA,0,0,0,0,0,1,0,0,European (non-Finnish)
+NA,0,0,0,0,0,0,0,1,South Asian
+NA,0,0,0,0,0,1,0,0,European (non-Finnish)
+NA,0,0,0,0,0,1,0,0,European (non-Finnish)
+NA,0,0,0,0,0,1,0,0,European (non-Finnish)
+NA,0,0,0,0,0,1,0,0,European (non-Finnish)
+NA,1,0,0,0,0,0,0,0,African
+NA,0,0,0,0,0,0.5,0,0.5,Multiracial
+NA,0,0,0,0,0,0,0,1,South Asian
+del,0,0,0,0,0.07692307692,0.8461538462,0.07692307692,0,Multiracial
+del,0,0,0,0,0,0,0,1,South Asian
+del,0,0,0,0,0,1,0,0,European (non-Finnish)
+del,0,0,0,0,0,0,0,1,South Asian
+del,0,0,0,0,0,1,0,0,European (non-Finnish)
+del,0,0,0,1,0,0,0,0,East Asian
+del,0,0,0,0,0,0.3333333333,0.6666666667,0,Multiracial
+del,0,0,0,0,0,0,0,1,South Asian
+del,0.5,0,0,0,0,0,0,0.5,Multiracial
+del,0,0,0,0,0,0,0,1,South Asian
+_,0,0,0,1,0,0,0,0,East Asian
+_,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.984,0,0,0,0,0,0,0,1,South Asian
+0.982,0,1,0,0,0,0,0,0,Latino
+0.979,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.977,0,0,0,1,0,0,0,0,East Asian
+0.973,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.97,0.02173913043,0.0652173913,0.6304347826,0,0,0.2391304348,0.04347826087,0,Multiracial
+0.96,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.952,0,1,0,0,0,0,0,0,Latino
+0.948,1,0,0,0,0,0,0,0,African
+0.946,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.941,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.941,0,0,0,0,0,0,0,1,South Asian
+0.931,1,0,0,0,0,0,0,0,African
+0.93,0,0,0,0,0,0,1,0,Other
+0.924,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.923,0,0,1,0,0,0,0,0,Ashkenazi Jewish
+0.92,0,0,0,0,0,0,0,1,South Asian
+0.917,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.916,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.913,0,0,0,0,0,0,0,1,South Asian
+0.906,0,0,0,0,0,0,0,1,South Asian
+0.894,0,1,0,0,0,0,0,0,Latino
+0.884,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.882,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.869,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.866,0,0,0,0,1,0,0,0,European (Finnish)
+0.862,0,0,0,0,0.6666666667,0,0.3333333333,0,Multiracial
+0.857,1,0,0,0,0,0,0,0,African
+0.854,1,0,0,0,0,0,0,0,African
+0.85,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.848,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.84,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.839,0,0,0,0,0,0.6666666667,0.3333333333,0,Multiracial
+0.834,0,0.6666666667,0,0,0,0.3333333333,0,0,Multiracial
+0.832,0,0.01923076923,0,0.9807692308,0,0,0,0,Multiracial
+0.832,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.815,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.814,0,0,0,0,0,0,0,1,South Asian
+0.813,0,0,0,0,0,0,1,0,Other
+0.812,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.811,0,0,0,1,0,0,0,0,East Asian
+0.809,0,0,0,1,0,0,0,0,East Asian
+0.808,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.808,0,0,0,0,1,0,0,0,European (Finnish)
+0.806,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.805,0,0,0,0.3333333333,0,0,0,0.6666666667,Multiracial
+0.804,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.804,0,0,0,1,0,0,0,0,East Asian
+0.802,0,0,0,0.5,0,0.5,0,0,Multiracial
+0.795,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.793,0,0,0,0,0,0,0,1,South Asian
+0.79,0,1,0,0,0,0,0,0,Latino
+0.789,0,1,0,0,0,0,0,0,Latino
+0.786,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.782,0,0,0,0,0,0,0,1,South Asian
+0.772,0,0,0,0,0,0,0,1,South Asian
+0.772,1,0,0,0,0,0,0,0,African
+0.772,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.77,0,0,0,0,0,0,0,1,South Asian
+0.763,0,0.2222222222,0,0,0,0.7777777778,0,0,Multiracial
+0.762,0.5,0,0,0,0,0.5,0,0,Multiracial
+0.758,0,0,0,1,0,0,0,0,East Asian
+0.742,0,1,0,0,0,0,0,0,Latino
+0.74,1,0,0,0,0,0,0,0,African
+0.739,0,0,1,0,0,0,0,0,Ashkenazi Jewish
+0.739,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.737,0,0,0,0,0,0,0,1,South Asian
+0.734,0,0,0,0,0,0,0,1,South Asian
+0.73,0,1,0,0,0,0,0,0,Latino
+0.73,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.73,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.727,0,0,0,0,0,0.6666666667,0.3333333333,0,Multiracial
+0.726,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.726,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.723,0,0,0,0.5,0,0.5,0,0,Multiracial
+0.722,0,0,0,1,0,0,0,0,East Asian
+0.721,0,0,0,0.3333333333,0,0.3333333333,0,0.3333333333,Multiracial
+0.721,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.719,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.718,0,0,0,0,1,0,0,0,European (Finnish)
+0.715,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.714,0,0.25,0,0,0,0.75,0,0,Multiracial
+0.712,0,0,0,0,0,0.75,0.25,0,Multiracial
+0.712,1,0,0,0,0,0,0,0,African
+0.71,0,0.8571428571,0,0,0,0,0.1428571429,0,Multiracial
+0.709,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.705,0,1,0,0,0,0,0,0,Latino
+0.704,0,0,0,0,0.5,0,0.5,0,Multiracial
+0.703,0,0,0,0,0,0,0,1,South Asian
+0.702,0.6875,0.2291666667,0,0,0,0.0625,0.02083333333,0,Multiracial
+0.7,0.75,0.25,0,0,0,0,0,0,Multiracial
+0.699,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.698,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.696,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.691,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.691,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.688,0,0,0,0,0,0,0,1,South Asian
+0.682,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.681,0.5,0,0,0.25,0,0.25,0,0,Multiracial
+0.681,0,0,1,0,0,0,0,0,Ashkenazi Jewish
+0.679,0,0,0,0,0,0.2380952381,0,0.7619047619,Multiracial
+0.678,0,0,0,1,0,0,0,0,East Asian
+0.675,0,1,0,0,0,0,0,0,Latino
+0.673,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.672,0,0,0,1,0,0,0,0,East Asian
+0.669,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.664,0,0,0,1,0,0,0,0,East Asian
+0.664,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.661,1,0,0,0,0,0,0,0,African
+0.661,0,0.5,0,0.5,0,0,0,0,Multiracial
+0.66,1,0,0,0,0,0,0,0,African
+0.66,0,0,0,1,0,0,0,0,East Asian
+0.655,1,0,0,0,0,0,0,0,African
+0.651,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.651,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.638,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.635,0,0,1,0,0,0,0,0,Ashkenazi Jewish
+0.635,1,0,0,0,0,0,0,0,African
+0.634,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.632,0.4,0,0,0,0,0.4,0,0.2,Multiracial
+0.63,1,0,0,0,0,0,0,0,African
+0.629,0,0,0,0.03448275862,0,0.8965517241,0.06896551724,0,Multiracial
+0.629,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.628,0.2,0.6,0,0,0,0.2,0,0,Multiracial
+0.627,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.625,0,0,0,0,0,0,1,0,Other
+0.625,0,0,0,0,0,0,0,1,South Asian
+0.624,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.619,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.616,0,0,0,0,0,0,0.05263157895,0.9473684211,Multiracial
+0.615,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.612,0,0,0,1,0,0,0,0,East Asian
+0.612,0,0,0,0,0,0,0,1,South Asian
+0.612,0,0.25,0,0,0,0.5,0,0.25,Multiracial
+0.611,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.608,1,0,0,0,0,0,0,0,African
+0.607,0,0,0,1,0,0,0,0,East Asian
+0.604,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.603,0,1,0,0,0,0,0,0,Latino
+0.597,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.593,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.593,1,0,0,0,0,0,0,0,African
+0.589,1,0,0,0,0,0,0,0,African
+0.587,1,0,0,0,0,0,0,0,African
+0.586,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.585,0,0,0,0,0,0,0,1,South Asian
+0.585,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.584,0,0,0,0,0,0,0,1,South Asian
+0.583,0,0,0,1,0,0,0,0,East Asian
+0.582,0,0,0,0,0,0,0,1,South Asian
+0.578,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.576,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.576,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.575,1,0,0,0,0,0,0,0,African
+0.574,0,1,0,0,0,0,0,0,Latino
+0.573,0.8666666667,0.06666666667,0,0,0,0,0.06666666667,0,Multiracial
+0.573,1,0,0,0,0,0,0,0,African
+0.571,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.57,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.567,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.566,0.01298701299,0.2727272727,0.1558441558,0,0,0.09090909091,0.1038961039,0.3636363636,Multiracial
+0.566,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.56,0,0,0,0,0,0.5,0,0.5,Multiracial
+0.559,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.556,0,0.2,0,0,0,0.8,0,0,Multiracial
+0.554,0,1,0,0,0,0,0,0,Latino
+0.553,0.03571428571,0,0,0.01785714286,0,0.6964285714,0.07142857143,0.1785714286,Multiracial
+0.552,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.551,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.549,0,0,0,0,0,0,0,1,South Asian
+0.548,0,0,0,0,0,0,0,1,South Asian
+0.547,0,0,0,1,0,0,0,0,East Asian
+0.546,0,0,0,1,0,0,0,0,East Asian
+0.546,0.04672897196,0.001869158879,0,0.7719626168,0.03177570093,0.1252336449,0.01495327103,0.007476635514,Multiracial
+0.546,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.544,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.543,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.543,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.541,1,0,0,0,0,0,0,0,African
+0.541,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.541,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.538,0,0,0,0,0,0,0,1,South Asian
+0.532,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.531,0,0,0,1,0,0,0,0,East Asian
+0.529,0,0,0,0,0,0.3333333333,0,0.6666666667,Multiracial
+0.527,0,0,0,0,0.9166666667,0,0.08333333333,0,Multiracial
+0.525,0,0,0,0,0,0,0,1,South Asian
+0.524,0.1428571429,0,0,0.4285714286,0,0,0,0.4285714286,Multiracial
+0.523,0.5,0,0,0,0,0,0.5,0,Multiracial
+0.522,0,0,0,1,0,0,0,0,East Asian
+0.522,0.6666666667,0,0,0,0,0.3333333333,0,0,Multiracial
+0.52,1,0,0,0,0,0,0,0,African
+0.52,0,0,0,0,0,0,0,1,South Asian
+0.518,0,0,0,0,0,0,0,1,South Asian
+0.518,0,0,0,0,0,0,0,1,South Asian
+0.516,1,0,0,0,0,0,0,0,African
+0.514,0.01086956522,0.2608695652,0,0,0.01086956522,0.5760869565,0.03260869565,0.1086956522,Multiracial
+0.506,0.02380952381,0.5476190476,0.02380952381,0.09523809524,0,0.2142857143,0,0.09523809524,Multiracial
+0.504,1,0,0,0,0,0,0,0,African
+0.502,0,0,0,0.6666666667,0,0.3333333333,0,0,Multiracial
+0.496,0,0,0,0,0,0,0,1,South Asian
+0.496,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.495,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.495,0,1,0,0,0,0,0,0,Latino
+0.494,0,0,0,1,0,0,0,0,East Asian
+0.493,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.492,0,0,0,0.5,0,0.5,0,0,Multiracial
+0.484,0,0,0,0,0.5,0,0,0.5,Multiracial
+0.483,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.481,0,0.5,0,0,0,0,0,0.5,Multiracial
+0.476,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.476,0,0,0,1,0,0,0,0,East Asian
+0.475,0,0,0,0.8,0,0,0.2,0,Multiracial
+0.474,0,0,1,0,0,0,0,0,Ashkenazi Jewish
+0.474,1,0,0,0,0,0,0,0,African
+0.468,0,0,0,0,0,0,0,1,South Asian
+0.467,0,0,0,0,0,0,0,1,South Asian
+0.466,0.8903878583,0.05059021922,0,0.001686340641,0,0.02192242833,0.01011804384,0.02529510961,Multiracial
+0.465,1,0,0,0,0,0,0,0,African
+0.464,0.03943661972,0.1154929577,0,0,0.005633802817,0.8056338028,0.03098591549,0.002816901408,Multiracial
+0.464,0,0,0,1,0,0,0,0,East Asian
+0.459,0,0,0,0,0.9444444444,0.05555555556,0,0,Multiracial
+0.459,0,0,0,0,0,0.5,0,0.5,Multiracial
+0.458,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.457,0,0,0,0,0,0,0,1,South Asian
+0.453,0,0,0,0,0,0,0,1,South Asian
+0.453,0.06722689076,0.06722689076,0.01260504202,0.02941176471,0.008403361345,0.281512605,0.02521008403,0.5084033613,Multiracial
+0.452,0,0,0,0,0,0,0,1,South Asian
+0.452,1,0,0,0,0,0,0,0,African
+0.451,0,0,0,0.04545454545,0,0,0,0.9545454545,Multiracial
+0.451,0,1,0,0,0,0,0,0,Latino
+0.451,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.438,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.432,0.5,0,0,0,0,0.5,0,0,Multiracial
+0.432,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.432,0,0,0,0,0,0,0,1,South Asian
+0.431,0,1,0,0,0,0,0,0,Latino
+0.43,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.428,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.425,1,0,0,0,0,0,0,0,African
+0.424,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.421,1,0,0,0,0,0,0,0,African
+0.418,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.417,0.6,0.4,0,0,0,0,0,0,Multiracial
+0.417,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.415,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.415,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.413,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.413,0.8,0,0,0,0,0,0,0.2,Multiracial
+0.412,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.408,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.407,0,0,0,1,0,0,0,0,East Asian
+0.406,0,0,0,1,0,0,0,0,East Asian
+0.406,0,1,0,0,0,0,0,0,Latino
+0.402,0,0,0,0,0,0,0,1,South Asian
+0.401,0,1,0,0,0,0,0,0,Latino
+0.398,0,1,0,0,0,0,0,0,Latino
+0.398,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.398,0,0,0,1,0,0,0,0,East Asian
+0.397,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.394,0,0.5,0,0,0,0.5,0,0,Multiracial
+0.394,0.1313131313,0.3939393939,0,0,0.0101010101,0.3232323232,0.1414141414,0,Multiracial
+0.393,1,0,0,0,0,0,0,0,African
+0.393,0,0,0,0,0,0,0,1,South Asian
+0.392,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.392,0,0,0,0,0,0.5,0,0.5,Multiracial
+0.391,0,1,0,0,0,0,0,0,Latino
+0.39,0,0,0,0,0,0,0,1,South Asian
+0.388,0,0,0,0,0,0,0,1,South Asian
+0.387,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.386,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.386,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.386,0,0,0,1,0,0,0,0,East Asian
+0.385,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.383,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.379,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.377,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.376,0,0,0,0,0,0,0,1,South Asian
+0.374,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.374,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.374,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.374,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.374,0,1,0,0,0,0,0,0,Latino
+0.373,0,0,0,1,0,0,0,0,East Asian
+0.373,1,0,0,0,0,0,0,0,African
+0.373,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.372,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.372,0.3333333333,0,0,0,0,0.3333333333,0,0.3333333333,Multiracial
+0.371,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.371,0,1,0,0,0,0,0,0,Latino
+0.369,0.1450226338,0.2151667428,0.04036712488,0.08123260933,0.0583911292,0.3859379542,0.02313218987,0.05074961585,Multiracial
+0.368,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.368,0,0,0,0,0,0.5,0,0.5,Multiracial
+0.368,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.368,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.366,0,0,0,0,0,0,0,1,South Asian
+0.364,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.364,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.364,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.363,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.361,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.36,0,0,0,0,0,0,1,0,Other
+0.359,0,0,0,0,0,0,0,1,South Asian
+0.358,0,0,0,0,0,0,0,1,South Asian
+0.356,0,0,0,0,0,0,0,1,South Asian
+0.355,0.75,0,0,0,0,0,0,0.25,Multiracial
+0.355,0,0,0,1,0,0,0,0,East Asian
+0.354,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.354,0,0,0,0,0,0,1,0,Other
+0.353,0,0,0,1,0,0,0,0,East Asian
+0.353,0,0,0,1,0,0,0,0,East Asian
+0.352,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.351,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.347,0,0.3333333333,0,0,0,0.6666666667,0,0,Multiracial
+0.347,1,0,0,0,0,0,0,0,African
+0.347,0,0.5,0,0,0,0,0.5,0,Multiracial
+0.342,0,0,0,0,0,0.6666666667,0,0.3333333333,Multiracial
+0.342,1,0,0,0,0,0,0,0,African
+0.341,0,1,0,0,0,0,0,0,Latino
+0.341,0,0,0,0,0,0,0,1,South Asian
+0.34,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.339,1,0,0,0,0,0,0,0,African
+0.339,0,0,0,1,0,0,0,0,East Asian
+0.339,0,0,0,0,0,0.7777777778,0,0.2222222222,Multiracial
+0.338,0,0,0,1,0,0,0,0,East Asian
+0.337,0,0,0,0,0,0,0,1,South Asian
+0.337,0,0,0,0.6666666667,0,0,0,0.3333333333,Multiracial
+0.336,0,0,0,1,0,0,0,0,East Asian
+0.336,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.335,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.335,0,1,0,0,0,0,0,0,Latino
+0.335,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.334,0,0,0,1,0,0,0,0,East Asian
+0.33,0,0,0,1,0,0,0,0,East Asian
+0.329,0,0,0,0,0,0,0,1,South Asian
+0.326,0,0.25,0,0,0,0.75,0,0,Multiracial
+0.323,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.323,0,0,0,0,0,0.3333333333,0,0.6666666667,Multiracial
+0.323,0.1428571429,0,0,0,0,0.8571428571,0,0,Multiracial
+0.323,0.5,0,0,0,0,0.5,0,0,Multiracial
+0.323,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.32,1,0,0,0,0,0,0,0,African
+0.319,0,0,0,0.9523809524,0,0,0.04761904762,0,Multiracial
+0.316,0,0,0,0,0,0,0,1,South Asian
+0.316,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.316,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.316,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.315,0,0,0,1,0,0,0,0,East Asian
+0.313,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.311,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.311,0.9166666667,0.05555555556,0,0,0,0.02083333333,0.006944444444,0,Multiracial
+0.309,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.308,0,0,0,0,0,0,0,1,South Asian
+0.308,0,0,0,1,0,0,0,0,East Asian
+0.308,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.307,0,0,0,0,0,0,0,1,South Asian
+0.307,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.305,0.003344481605,0.1772575251,0,0,0.4214046823,0.3344481605,0.04682274247,0.01672240803,Multiracial
+0.304,0,0,0,1,0,0,0,0,East Asian
+0.304,0.6666666667,0.3333333333,0,0,0,0,0,0,Multiracial
+0.304,0,0,0,0,0,0,0,1,South Asian
+0.303,0,0.1428571429,0.4285714286,0.1428571429,0.1428571429,0.1428571429,0,0,Multiracial
+0.303,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.302,0,0,0,0,0,0.9333333333,0.06666666667,0,Multiracial
+0.301,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.3,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.3,1,0,0,0,0,0,0,0,African
+0.298,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.297,0,0,0,0,0,0,1,0,Other
+0.297,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.297,0,0,0,0,0,0.2857142857,0,0.7142857143,Multiracial
+0.297,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.295,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.294,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.294,0,0,0,0,0.25,0.75,0,0,Multiracial
+0.294,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.293,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.293,0.25,0,0,0,0.25,0,0,0.5,Multiracial
+0.292,0,0,0,1,0,0,0,0,East Asian
+0.292,0,1,0,0,0,0,0,0,Latino
+0.291,0,1,0,0,0,0,0,0,Latino
+0.291,0,0,0,0,1,0,0,0,European (Finnish)
+0.291,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.29,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.29,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.289,0,0,1,0,0,0,0,0,Ashkenazi Jewish
+0.289,0,1,0,0,0,0,0,0,Latino
+0.288,0,0,0,0,0,0.5,0,0.5,Multiracial
+0.288,0,0,0,0,0,0,0,1,South Asian
+0.288,0,1,0,0,0,0,0,0,Latino
+0.288,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.286,0,0,0,0,0,0,0,1,South Asian
+0.286,0,0,0,0,0,0,0,1,South Asian
+0.283,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.282,0,0,0,0.4444444444,0,0.1111111111,0,0.4444444444,Multiracial
+0.282,0,0,0,0,0,0,0,1,South Asian
+0.279,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.278,0.25,0,0,0,0,0.75,0,0,Multiracial
+0.277,0.06666666667,0.1333333333,0,0.06666666667,0,0.6666666667,0,0.06666666667,Multiracial
+0.277,0,0,0,1,0,0,0,0,East Asian
+0.276,0.0625,0,0,0.0625,0,0.8125,0,0.0625,Multiracial
+0.275,0,1,0,0,0,0,0,0,Latino
+0.274,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.274,0,1,0,0,0,0,0,0,Latino
+0.273,0,0,0,0,0,0,0,1,South Asian
+0.272,0,0,1,0,0,0,0,0,Ashkenazi Jewish
+0.272,0,0.5192307692,0.05769230769,0,0,0.3653846154,0.05769230769,0,Multiracial
+0.272,1,0,0,0,0,0,0,0,African
+0.272,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.271,0,1,0,0,0,0,0,0,Latino
+0.271,0,0,0,0,0,0,0,1,South Asian
+0.271,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.271,1,0,0,0,0,0,0,0,African
+0.271,1,0,0,0,0,0,0,0,African
+0.271,0,0,0,0,0,0,0,1,South Asian
+0.27,1,0,0,0,0,0,0,0,African
+0.269,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.269,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.268,1,0,0,0,0,0,0,0,African
+0.268,0,0,0,0,0,0,0,1,South Asian
+0.266,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.265,0,0,0,0,0,0,0,1,South Asian
+0.264,0,0,0,1,0,0,0,0,East Asian
+0.263,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.263,0,0,0,1,0,0,0,0,East Asian
+0.263,0,0,0,0,0,0,0.07692307692,0.9230769231,Multiracial
+0.262,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.261,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.26,0,0.1333333333,0,0,0,0.8666666667,0,0,Multiracial
+0.26,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.259,0,0,0,0,0,0,0,1,South Asian
+0.259,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.258,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.256,0,0,0,1,0,0,0,0,East Asian
+0.256,0.8985736926,0.07448494453,0,0,0,0.01267828843,0.01109350238,0.003169572108,Multiracial
+0.256,0.4,0.2,0,0,0,0.4,0,0,Multiracial
+0.255,0,1,0,0,0,0,0,0,Latino
+0.255,0,1,0,0,0,0,0,0,Latino
+0.255,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.254,0,0,0,0,1,0,0,0,European (Finnish)
+0.253,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.252,1,0,0,0,0,0,0,0,African
+0.25,0,1,0,0,0,0,0,0,Latino
+0.249,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.248,0.1430192503,0.2313272543,0.04,0.08287740628,0.05758865248,0.3738196555,0.02237082067,0.04899696049,Multiracial
+0.248,0,0,0,0,0,0.5,0.5,0,Multiracial
+0.248,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.247,0,0,0,1,0,0,0,0,East Asian
+0.246,0,1,0,0,0,0,0,0,Latino
+0.246,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.244,0,0,0,0,0,0,0,1,South Asian
+0.244,0,0,0,0,0.44,0.54,0.02,0,Multiracial
+0.244,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.243,0.1666666667,0.7083333333,0,0,0,0.04166666667,0.08333333333,0,Multiracial
+0.243,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.243,0,0,0,1,0,0,0,0,East Asian
+0.243,0,0,0,0,0,0,0,1,South Asian
+0.243,0,1,0,0,0,0,0,0,Latino
+0.242,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.242,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.241,1,0,0,0,0,0,0,0,African
+0.241,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.241,0,0,0,0,0,0.5,0.5,0,Multiracial
+0.24,0.02777777778,0.2777777778,0,0.02777777778,0,0.6666666667,0,0,Multiracial
+0.24,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.24,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.239,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.239,0.5,0,0,0,0,0.5,0,0,Multiracial
+0.239,0.5,0,0,0,0,0.5,0,0,Multiracial
+0.237,1,0,0,0,0,0,0,0,African
+0.237,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.235,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.234,0,0,0,1,0,0,0,0,East Asian
+0.233,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.233,0,0,0,0,1,0,0,0,European (Finnish)
+0.232,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.231,1,0,0,0,0,0,0,0,African
+0.229,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.229,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.228,0,0.5833333333,0,0,0,0.3333333333,0.08333333333,0,Multiracial
+0.228,0,1,0,0,0,0,0,0,Latino
+0.228,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.228,0.01051163788,0.08924166041,0.0194143516,0.0006435696664,0.3462404805,0.4764560764,0.02702992599,0.03046229754,Multiracial
+0.227,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.226,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.226,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.226,1,0,0,0,0,0,0,0,African
+0.225,0,0,0,1,0,0,0,0,East Asian
+0.225,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.225,1,0,0,0,0,0,0,0,African
+0.224,0,1,0,0,0,0,0,0,Latino
+0.224,1,0,0,0,0,0,0,0,African
+0.224,0,0.3333333333,0,0,0,0.6666666667,0,0,Multiracial
+0.224,0,0,0,1,0,0,0,0,East Asian
+0.224,0,1,0,0,0,0,0,0,Latino
+0.224,0,0,0,0,0,0,0,1,South Asian
+0.224,0,0,0,0.5,0,0.5,0,0,Multiracial
+0.223,0,0.2,0,0,0,0.2,0,0.6,Multiracial
+0.223,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.223,1,0,0,0,0,0,0,0,African
+0.223,0,0,0,0,0,0,0,1,South Asian
+0.223,0,0,0,0,0.5,0,0,0.5,Multiracial
+0.223,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.222,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.222,0,0.5,0,0.5,0,0,0,0,Multiracial
+0.221,0,0,0,0,0,0,0,1,South Asian
+0.221,0,0,0,1,0,0,0,0,East Asian
+0.219,0,0.960443038,0,0.01424050633,0,0.001582278481,0.02373417722,0,Multiracial
+0.219,0,0,0,0,0,0,0,1,South Asian
+0.219,0,0,0,1,0,0,0,0,East Asian
+0.219,0,0.5,0,0,0,0.5,0,0,Multiracial
+0.218,1,0,0,0,0,0,0,0,African
+0.217,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.217,0,0,0,0,0,0,0,1,South Asian
+0.217,0,1,0,0,0,0,0,0,Latino
+0.216,0,0,0,0,0,0,0,1,South Asian
+0.215,0,0.8333333333,0,0,0,0.05555555556,0.1111111111,0,Multiracial
+0.215,0,0,0,0,0,0,0,1,South Asian
+0.215,0,0,0,0,0,0,0,1,South Asian
+0.214,0.9279279279,0.06306306306,0,0,0,0,0.009009009009,0,Multiracial
+0.214,1,0,0,0,0,0,0,0,African
+0.214,0,0,0,0,0,0,0,1,South Asian
+0.214,0,1,0,0,0,0,0,0,Latino
+0.214,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.213,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.213,0,0,0,0,0,0,0.25,0.75,Multiracial
+0.213,0,0,0,1,0,0,0,0,East Asian
+0.212,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.212,0,1,0,0,0,0,0,0,Latino
+0.211,0,0,0,0,0,0,0,1,South Asian
+0.211,0,0,0,0,0,0,0,1,South Asian
+0.209,1,0,0,0,0,0,0,0,African
+0.209,0,0,0,0,0.6666666667,0.3333333333,0,0,Multiracial
+0.209,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.209,0,0,0,0.6666666667,0,0,0,0.3333333333,Multiracial
+0.208,0.1538461538,0.3076923077,0,0,0,0.4615384615,0.07692307692,0,Multiracial
+0.208,0,0,0,0,0,0.5,0,0.5,Multiracial
+0.208,0,0,0,0.5,0,0,0.5,0,Multiracial
+0.206,0.02040816327,0.02040816327,0,0.1836734694,0,0.7142857143,0.04081632653,0.02040816327,Multiracial
+0.206,0,0,0,0,0,0.5,0.1666666667,0.3333333333,Multiracial
+0.206,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.206,0,0,0,0,0,0,0,1,South Asian
+0.206,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.206,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.206,0,1,0,0,0,0,0,0,Latino
+0.206,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.206,0,0,0,0,0,0,0.1666666667,0.8333333333,Multiracial
+0.206,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.205,0,1,0,0,0,0,0,0,Latino
+0.205,0,0,0,0,0,0.5,0,0.5,Multiracial
+0.205,0,0,0,0,0,0,0,1,South Asian
+0.205,0.1428571429,0.1428571429,0,0,0,0.7142857143,0,0,Multiracial
+0.204,0,0,0,1,0,0,0,0,East Asian
+0.204,0,1,0,0,0,0,0,0,Latino
+0.204,0,0,0,0,0,0.9333333333,0.06666666667,0,Multiracial
+0.204,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.203,0,0,0,1,0,0,0,0,East Asian
+0.203,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.202,0.4,0,0,0,0,0.6,0,0,Multiracial
+0.202,0,0.3333333333,0,0,0,0.6666666667,0,0,Multiracial
+0.202,0,0,0,1,0,0,0,0,East Asian
+0.202,0,0.3333333333,0,0,0,0.6666666667,0,0,Multiracial
+0.201,0,0,0.75,0,0,0.25,0,0,Multiracial
+0.201,0,0,0,1,0,0,0,0,East Asian
+0.201,0,0,0,0,0.05263157895,0.9473684211,0,0,Multiracial
+0.2,0,0,0,0,0,0.3333333333,0,0.6666666667,Multiracial
+0.2,0,0,0,1,0,0,0,0,East Asian
+0.199,0,1,0,0,0,0,0,0,Latino
+0.198,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.198,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.198,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.198,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.198,0,0.05,0,0.025,0,0.85,0.025,0.05,Multiracial
+0.196,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.196,1,0,0,0,0,0,0,0,African
+0.195,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.194,0.003500583431,0,0.003500583431,0,0.7362893816,0.2333722287,0.02333722287,0,Multiracial
+0.194,0,0,0,0,0,0.5,0,0.5,Multiracial
+0.194,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.193,0,0.5,0,0,0,0.25,0,0.25,Multiracial
+0.193,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.193,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.193,0,0,0,0,0,0,0.07142857143,0.9285714286,Multiracial
+0.192,0,1,0,0,0,0,0,0,Latino
+0.192,1,0,0,0,0,0,0,0,African
+0.192,1,0,0,0,0,0,0,0,African
+0.192,0.1666666667,0.1666666667,0,0,0,0.3333333333,0.3333333333,0,Multiracial
+0.192,0,1,0,0,0,0,0,0,Latino
+0.192,0,1,0,0,0,0,0,0,Latino
+0.191,0.2,0,0.2,0,0,0.6,0,0,Multiracial
+0.191,1,0,0,0,0,0,0,0,African
+0.191,0,0,0,0.5,0,0,0,0.5,Multiracial
+0.19,1,0,0,0,0,0,0,0,African
+0.19,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.19,0,0,0,0.8181818182,0,0.1818181818,0,0,Multiracial
+0.189,0,1,0,0,0,0,0,0,Latino
+0.189,1,0,0,0,0,0,0,0,African
+0.189,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.188,0.65625,0.03125,0,0,0,0.3125,0,0,Multiracial
+0.188,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.188,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.188,0,0,0,0,0,0,0,1,South Asian
+0.188,1,0,0,0,0,0,0,0,African
+0.187,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.186,1,0,0,0,0,0,0,0,African
+0.186,0,0.3333333333,0,0,0,0.3333333333,0,0.3333333333,Multiracial
+0.186,0,1,0,0,0,0,0,0,Latino
+0.186,0,0,0,0,0,0.5,0,0.5,Multiracial
+0.185,0,0,0,1,0,0,0,0,East Asian
+0.184,0.02490421456,0.05632183908,0.08352490421,0.0003831417625,0.03946360153,0.7379310345,0.02490421456,0.03256704981,Multiracial
+0.183,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.183,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.182,0,1,0,0,0,0,0,0,Latino
+0.182,0,0,0,0,0,0,0,1,South Asian
+0.182,1,0,0,0,0,0,0,0,African
+0.182,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.182,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.181,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.181,0,0,0,0,0,0.2,0,0.8,Multiracial
+0.181,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.181,1,0,0,0,0,0,0,0,African
+0.179,0,1,0,0,0,0,0,0,Latino
+0.178,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.178,1,0,0,0,0,0,0,0,African
+0.178,1,0,0,0,0,0,0,0,African
+0.177,0,0,0,1,0,0,0,0,East Asian
+0.177,0,1,0,0,0,0,0,0,Latino
+0.177,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.176,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.176,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.176,0,0,0,1,0,0,0,0,East Asian
+0.175,0,0.007299270073,0,0.700729927,0.02189781022,0.197080292,0.02919708029,0.04379562044,Multiracial
+0.175,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.175,0,0,0,1,0,0,0,0,East Asian
+0.175,0,1,0,0,0,0,0,0,Latino
+0.175,0,0.5,0,0,0,0.5,0,0,Multiracial
+0.174,0,0,0,1,0,0,0,0,East Asian
+0.173,0,0.1818181818,0,0,0,0.6363636364,0,0.1818181818,Multiracial
+0.173,0,0,0,0,0,0,0,1,South Asian
+0.173,0.02325581395,0.4186046512,0,0,0,0.5348837209,0.02325581395,0,Multiracial
+0.173,0.0202020202,0.02525252525,0,0.9343434343,0,0.005050505051,0.005050505051,0.0101010101,Multiracial
+0.172,0,0,0,0,0,0,0,1,South Asian
+0.172,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.171,0.4,0,0,0.2,0,0.2,0,0.2,Multiracial
+0.171,1,0,0,0,0,0,0,0,African
+0.171,0,0,0,0,0,0,0,1,South Asian
+0.169,0,0,0,1,0,0,0,0,East Asian
+0.169,0,0,0,0,0,0,1,0,Other
+0.169,0,1,0,0,0,0,0,0,Latino
+0.169,1,0,0,0,0,0,0,0,African
+0.168,0,0,0,0,1,0,0,0,European (Finnish)
+0.168,0,0,0,0,0,0,0,1,South Asian
+0.168,0,1,0,0,0,0,0,0,Latino
+0.167,0,0.5,0,0,0,0.5,0,0,Multiracial
+0.167,0,1,0,0,0,0,0,0,Latino
+0.167,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.167,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.166,0,0,0,0,0,0.5,0.5,0,Multiracial
+0.166,0,0,0,0,0,0.4,0,0.6,Multiracial
+0.165,0,0,0,0,0,0,0,1,South Asian
+0.165,0,0,0,0,1,0,0,0,European (Finnish)
+0.165,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.165,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.165,0,0,0,0.2,0,0.4,0,0.4,Multiracial
+0.165,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.165,0,0,0.4,0.2,0.2,0.2,0,0,Multiracial
+0.164,1,0,0,0,0,0,0,0,African
+0.164,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.163,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.163,0,0,0,1,0,0,0,0,East Asian
+0.163,0,0,0,1,0,0,0,0,East Asian
+0.162,0,0.1666666667,0,0,0,0.6666666667,0,0.1666666667,Multiracial
+0.162,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.161,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.161,0.25,0,0,0,0,0.75,0,0,Multiracial
+0.161,0,0,0,1,0,0,0,0,East Asian
+0.16,0.2222222222,0,0,0,0,0.7777777778,0,0,Multiracial
+0.159,0,1,0,0,0,0,0,0,Latino
+0.159,0,1,0,0,0,0,0,0,Latino
+0.158,0,0,0,1,0,0,0,0,East Asian
+0.157,1,0,0,0,0,0,0,0,African
+0.157,0,0.3333333333,0,0,0,0.1111111111,0,0.5555555556,Multiracial
+0.157,0,0,0,0,0,0,0.5,0.5,Multiracial
+0.157,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.157,0,0.25,0,0,0,0.75,0,0,Multiracial
+0.157,1,0,0,0,0,0,0,0,African
+0.156,1,0,0,0,0,0,0,0,African
+0.156,1,0,0,0,0,0,0,0,African
+0.156,0,0,0,0,0,0,0,1,South Asian
+0.155,0,0.5,0,0,0,0.25,0,0.25,Multiracial
+0.155,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.155,0,0,0,0,0,0,0,1,South Asian
+0.154,1,0,0,0,0,0,0,0,African
+0.154,0,0,0,1,0,0,0,0,East Asian
+0.154,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.154,0,0.75,0,0,0,0.25,0,0,Multiracial
+0.154,0,0.06,0,0,0.1,0.82,0,0.02,Multiracial
+0.153,0,0,0,0,1,0,0,0,European (Finnish)
+0.153,0,0,0,0,0,0,0,1,South Asian
+0.153,0,0,0,0,0,0,0,1,South Asian
+0.153,0,0,0,0.5,0,0.5,0,0,Multiracial
+0.152,1,0,0,0,0,0,0,0,African
+0.152,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.152,0,0,0,0,0,0,0,1,South Asian
+0.152,1,0,0,0,0,0,0,0,African
+0.152,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.152,0,0,0,1,0,0,0,0,East Asian
+0.151,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.151,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.15,1,0,0,0,0,0,0,0,African
+0.15,0,0,0,0,0,0,1,0,Other
+0.15,0,1,0,0,0,0,0,0,Latino
+0.149,0,0,0,0,0,0,0,1,South Asian
+0.149,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.149,0.0119047619,0,0.8214285714,0,0,0.1428571429,0.02380952381,0,Multiracial
+0.149,0,0.6666666667,0,0,0,0,0,0.3333333333,Multiracial
+0.148,1,0,0,0,0,0,0,0,African
+0.148,0,0,0,0,0,0,0,1,South Asian
+0.146,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.146,0,0,0,0,0,0,0,1,South Asian
+0.145,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.145,0.25,0.5,0,0,0,0,0.25,0,Multiracial
+0.144,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.144,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.144,1,0,0,0,0,0,0,0,African
+0.143,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.143,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.143,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.142,0,0,0,0.1666666667,0,0.5,0.1666666667,0.1666666667,Multiracial
+0.142,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.142,0,0,0,1,0,0,0,0,East Asian
+0.142,0,1,0,0,0,0,0,0,Latino
+0.142,0,0,0,0,0,0,0,1,South Asian
+0.142,0,0,0,0,0,0,0,1,South Asian
+0.141,1,0,0,0,0,0,0,0,African
+0.141,0,1,0,0,0,0,0,0,Latino
+0.141,0,0,0,1,0,0,0,0,East Asian
+0.141,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.14,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.14,0,0,0,1,0,0,0,0,East Asian
+0.139,0,1,0,0,0,0,0,0,Latino
+0.139,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.139,0,0,0,0,0,0,0,1,South Asian
+0.138,0.0143308746,0.0727081138,0.1317175975,0.00210748156,0.01622760801,0.5201264489,0.03709167545,0.2056902002,Multiracial
+0.138,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.138,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.138,0,0,0.8333333333,0,0,0.1666666667,0,0,Multiracial
+0.137,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.137,0,0,0,0,0,0,0,1,South Asian
+0.136,0,0,0,1,0,0,0,0,East Asian
+0.135,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.135,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.135,0,0.125,0,0,0,0.625,0,0.25,Multiracial
+0.134,1,0,0,0,0,0,0,0,African
+0.134,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.133,0,0,0,1,0,0,0,0,East Asian
+0.133,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.133,0,1,0,0,0,0,0,0,Latino
+0.133,0,1,0,0,0,0,0,0,Latino
+0.133,0,0,0,0,0,0,1,0,Other
+0.132,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.132,0,0,0,0,0,0,0,1,South Asian
+0.132,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.132,0,0,0,0,0,0,0,1,South Asian
+0.131,0,0,1,0,0,0,0,0,Ashkenazi Jewish
+0.131,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.13,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.13,0,0,0,1,0,0,0,0,East Asian
+0.13,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.13,0,0,0,0,0,0,0,1,South Asian
+0.13,0,0,0,1,0,0,0,0,East Asian
+0.13,0,0,0,0,0.2727272727,0.5454545455,0.1818181818,0,Multiracial
+0.13,0,0,0,0,0,0,1,0,Other
+0.13,0,1,0,0,0,0,0,0,Latino
+0.13,0,0,0,1,0,0,0,0,East Asian
+0.13,0,0,0,1,0,0,0,0,East Asian
+0.129,0,1,0,0,0,0,0,0,Latino
+0.129,0,0,0,0.5,0,0.5,0,0,Multiracial
+0.129,0,0,0,1,0,0,0,0,East Asian
+0.128,1,0,0,0,0,0,0,0,African
+0.128,1,0,0,0,0,0,0,0,African
+0.128,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.127,0,0,0,1,0,0,0,0,East Asian
+0.127,0,0,0,1,0,0,0,0,East Asian
+0.126,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.126,0,0,0,1,0,0,0,0,East Asian
+0.126,0,0,0,0,0,0,0,1,South Asian
+0.126,0,0,0,0,0,0,0,1,South Asian
+0.126,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.126,0,0,0.8888888889,0,0,0,0,0.1111111111,Multiracial
+0.125,0,0,0,0,0,0,0,1,South Asian
+0.125,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.124,0.5714285714,0,0,0.1428571429,0,0.1428571429,0,0.1428571429,Multiracial
+0.123,0,0.7619047619,0,0,0,0.1904761905,0.04761904762,0,Multiracial
+0.123,0,0,0,0,0,0,0,1,South Asian
+0.123,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.123,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.123,0,0,0,1,0,0,0,0,East Asian
+0.123,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.122,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.122,0,0.25,0,0.25,0,0.5,0,0,Multiracial
+0.122,0,0.3333333333,0,0,0,0.6666666667,0,0,Multiracial
+0.122,0,1,0,0,0,0,0,0,Latino
+0.121,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.121,0,0.5,0,0,0,0.5,0,0,Multiracial
+0.121,0,0,0,0,0,0,1,0,Other
+0.121,0,1,0,0,0,0,0,0,Latino
+0.121,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.12,0,0.5,0,0,0,0.5,0,0,Multiracial
+0.12,0,0,1,0,0,0,0,0,Ashkenazi Jewish
+0.119,1,0,0,0,0,0,0,0,African
+0.119,0,0,0,0,0,0.5,0.5,0,Multiracial
+0.119,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.118,1,0,0,0,0,0,0,0,African
+0.117,0,0,0,0.5,0.5,0,0,0,Multiracial
+0.117,0.5,0,0,0,0,0.5,0,0,Multiracial
+0.117,0,0,0,0,0,0,0,1,South Asian
+0.117,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.117,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.116,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.116,0,1,0,0,0,0,0,0,Latino
+0.116,0.5,0.5,0,0,0,0,0,0,Multiracial
+0.116,0.1538461538,0,0,0,0,0.8461538462,0,0,Multiracial
+0.116,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.115,0,1,0,0,0,0,0,0,Latino
+0.115,0,0,0,0,0,0,0,1,South Asian
+0.115,0,0,0,0,0,0,0,1,South Asian
+0.113,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.113,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.113,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.113,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.112,0,0.1666666667,0,0,0,0.6666666667,0,0.1666666667,Multiracial
+0.112,0,0,0,0,0,0,0,1,South Asian
+0.112,0,0,0,1,0,0,0,0,East Asian
+0.112,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.112,0,0,0,0,0,0,0,1,South Asian
+0.112,0,0,0,0.6666666667,0,0,0.3333333333,0,Multiracial
+0.11,0,0,0,0,0.5,0,0.5,0,Multiracial
+0.11,0,0,0,1,0,0,0,0,East Asian
+0.109,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.109,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.109,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.109,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.108,0,0,0,0,0,0,0,1,South Asian
+0.108,0,0,0,1,0,0,0,0,East Asian
+0.107,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.107,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.106,0,0,0,0,0,0,0,1,South Asian
+0.106,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.105,0,1,0,0,0,0,0,0,Latino
+0.105,1,0,0,0,0,0,0,0,African
+0.104,0,0,0,1,0,0,0,0,East Asian
+0.104,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.104,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.104,0,0,0,0,0,0.1666666667,0.5,0.3333333333,Multiracial
+0.104,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.104,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.104,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.104,0,0,0,0,0,0,1,0,Other
+0.104,1,0,0,0,0,0,0,0,African
+0.103,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.103,0,1,0,0,0,0,0,0,Latino
+0.103,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.103,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.102,0,0.1132075472,0.7358490566,0,0,0.1132075472,0.03773584906,0,Multiracial
+0.102,0,0,0,0,0,0,0,1,South Asian
+0.102,0,0,0,1,0,0,0,0,East Asian
+0.101,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.101,0,0,0,0,0,0,0,1,South Asian
+0.1,0.03100775194,0.0645994832,0.01636520241,0,0.08010335917,0.7760551249,0.03100775194,0.0008613264427,Multiracial
+0.1,0,0,0,0,0,0,0,1,South Asian
+0.1,0,0.25,0,0,0,0.6875,0,0.0625,Multiracial
+0.1,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.1,0,1,0,0,0,0,0,0,Latino
+0.099,0,0.9647058824,0,0,0.002941176471,0.005882352941,0.02352941176,0.002941176471,Multiracial
+0.099,0,0,0,0,0,0,0,1,South Asian
+0.099,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.099,0,0,0,0,0,0,0,1,South Asian
+0.099,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.099,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.099,0,0,0,0,0,0,0,1,South Asian
+0.099,0,1,0,0,0,0,0,0,Latino
+0.098,0,0,0,1,0,0,0,0,East Asian
+0.098,1,0,0,0,0,0,0,0,African
+0.098,0.07592714505,0.1006375385,0.03515124216,0.05356709747,0.1074171604,0.4899402885,0.02629269025,0.1110668376,Multiracial
+0.098,0,1,0,0,0,0,0,0,Latino
+0.098,0.8235294118,0.1176470588,0,0,0,0.05882352941,0,0,Multiracial
+0.097,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.097,0,0,0,0,0,0,0,1,South Asian
+0.097,0.3333333333,0,0,0,0,0.6666666667,0,0,Multiracial
+0.096,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.096,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.096,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.095,0,0,0,0.4444444444,0,0.1111111111,0,0.4444444444,Multiracial
+0.095,0,0,0,1,0,0,0,0,East Asian
+0.095,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.095,0.6666666667,0.3333333333,0,0,0,0,0,0,Multiracial
+0.095,1,0,0,0,0,0,0,0,African
+0.095,0,0,0,1,0,0,0,0,East Asian
+0.095,0.6666666667,0.3333333333,0,0,0,0,0,0,Multiracial
+0.094,0,0.2,0,0,0,0.8,0,0,Multiracial
+0.094,0,0,1,0,0,0,0,0,Ashkenazi Jewish
+0.094,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.094,0,0,0,1,0,0,0,0,East Asian
+0.093,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.093,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.092,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.092,0,0,0,0,0,0.5,0,0.5,Multiracial
+0.092,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.091,0,0,0,0,0,0,0,1,South Asian
+0.091,0.1428571429,0,0,0,0,0.8571428571,0,0,Multiracial
+0.091,0.7333333333,0.2666666667,0,0,0,0,0,0,Multiracial
+0.091,0,0,0,0,0,0.1428571429,0,0.8571428571,Multiracial
+0.091,0,0,0,0,0,0,1,0,Other
+0.09,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.09,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.09,0,0,0,0,0,0.3333333333,0,0.6666666667,Multiracial
+0.089,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.089,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.089,1,0,0,0,0,0,0,0,African
+0.089,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.089,1,0,0,0,0,0,0,0,African
+0.087,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.087,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.087,0,0,0,0,0,0,1,0,Other
+0.087,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.087,1,0,0,0,0,0,0,0,African
+0.086,0,0,0,0.25,0,0.75,0,0,Multiracial
+0.086,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.086,0.2,0.4,0,0,0,0.2666666667,0.1333333333,0,Multiracial
+0.086,1,0,0,0,0,0,0,0,African
+0.086,0.05375117111,0.08722704014,0.03345184616,0.08110120835,0.1115381844,0.4724097341,0.0257525164,0.1347682994,Multiracial
+0.086,0,0.1,0,0,0,0.6,0,0.3,Multiracial
+0.085,0,0,0,0,1,0,0,0,European (Finnish)
+0.085,0,0,0,1,0,0,0,0,East Asian
+0.085,0,0,1,0,0,0,0,0,Ashkenazi Jewish
+0.085,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.085,0,0,0,0,0,0,0,1,South Asian
+0.084,0,0,0,0,1,0,0,0,European (Finnish)
+0.084,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.084,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.084,1,0,0,0,0,0,0,0,African
+0.083,0.9393939394,0,0,0,0,0.0303030303,0,0.0303030303,Multiracial
+0.083,0,0.16,0,0,0,0.84,0,0,Multiracial
+0.083,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.083,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.083,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.083,0,0.6,0,0,0,0.2,0.2,0,Multiracial
+0.083,0.03333333333,0.9,0,0.06666666667,0,0,0,0,Multiracial
+0.082,0,0,0,1,0,0,0,0,East Asian
+0.082,0,0,0,0,0,0,0,1,South Asian
+0.082,0,0,0,0,0,0,0,1,South Asian
+0.082,1,0,0,0,0,0,0,0,African
+0.082,0,0,0,0,0,0.6666666667,0.3333333333,0,Multiracial
+0.082,0,0,0,0,1,0,0,0,European (Finnish)
+0.081,0,0,0,0,0,0.09090909091,0,0.9090909091,Multiracial
+0.081,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.081,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.081,1,0,0,0,0,0,0,0,African
+0.081,0,0,0,0,0,0,0,1,South Asian
+0.081,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.08,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.08,0,0.3333333333,0.3333333333,0,0,0.3333333333,0,0,Multiracial
+0.08,0,0.5,0,0,0,0.5,0,0,Multiracial
+0.08,0,1,0,0,0,0,0,0,Latino
+0.079,1,0,0,0,0,0,0,0,African
+0.079,1,0,0,0,0,0,0,0,African
+0.079,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.079,1,0,0,0,0,0,0,0,African
+0.079,0,0,0,0,0,0.75,0,0.25,Multiracial
+0.079,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.079,0,1,0,0,0,0,0,0,Latino
+0.078,0,0,0,1,0,0,0,0,East Asian
+0.078,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.077,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.077,0,1,0,0,0,0,0,0,Latino
+0.077,1,0,0,0,0,0,0,0,African
+0.077,0,0,0,1,0,0,0,0,East Asian
+0.077,0,0,0,1,0,0,0,0,East Asian
+0.076,1,0,0,0,0,0,0,0,African
+0.076,1,0,0,0,0,0,0,0,African
+0.076,0.5,0,0,0,0,0,0,0.5,Multiracial
+0.076,0,0,0,0,0,0,0,1,South Asian
+0.076,1,0,0,0,0,0,0,0,African
+0.076,1,0,0,0,0,0,0,0,African
+0.076,0,0,0,0,0,0.5,0,0.5,Multiracial
+0.075,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.075,0,0,0,1,0,0,0,0,East Asian
+0.075,0,0,0,0,0,0,0,1,South Asian
+0.074,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.074,0,0,0,1,0,0,0,0,East Asian
+0.074,0,0,0,1,0,0,0,0,East Asian
+0.074,1,0,0,0,0,0,0,0,African
+0.073,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.073,0,0,0,1,0,0,0,0,East Asian
+0.073,0,0,0,0,1,0,0,0,European (Finnish)
+0.073,0,1,0,0,0,0,0,0,Latino
+0.073,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.073,0,0.5,0,0,0,0.5,0,0,Multiracial
+0.072,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.072,1,0,0,0,0,0,0,0,African
+0.072,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.072,0,1,0,0,0,0,0,0,Latino
+0.072,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.071,0,0,0,0,1,0,0,0,European (Finnish)
+0.071,0,0,0.03703703704,0,0,0.2592592593,0,0.7037037037,Multiracial
+0.071,1,0,0,0,0,0,0,0,African
+0.07,0,0,0,1,0,0,0,0,East Asian
+0.07,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.069,0,0,0,0,0,0,0,1,South Asian
+0.069,0,0.5,0,0,0,0.5,0,0,Multiracial
+0.069,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.068,0,1,0,0,0,0,0,0,Latino
+0.068,0,0,0,0,0,0,0,1,South Asian
+0.068,1,0,0,0,0,0,0,0,African
+0.068,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.068,0,0,0,0,1,0,0,0,European (Finnish)
+0.068,1,0,0,0,0,0,0,0,African
+0.067,0,0,0,0,0,0,0,1,South Asian
+0.067,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.067,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.067,1,0,0,0,0,0,0,0,African
+0.066,0.07407407407,0,0.5925925926,0,0,0.2592592593,0.03703703704,0.03703703704,Multiracial
+0.066,0,0,0,0,0,0,0,1,South Asian
+0.066,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.066,0,0,0,1,0,0,0,0,East Asian
+0.065,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.065,0,0,0,0,0,0.4285714286,0.1428571429,0.4285714286,Multiracial
+0.065,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.064,0,1,0,0,0,0,0,0,Latino
+0.064,0.6666666667,0.3333333333,0,0,0,0,0,0,Multiracial
+0.064,0,0,0,0.9,0,0,0.1,0,Multiracial
+0.063,1,0,0,0,0,0,0,0,African
+0.063,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.063,1,0,0,0,0,0,0,0,African
+0.063,0,0,0,0,0,0,0,1,South Asian
+0.063,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.063,0,0,0,0,0,0,0,1,South Asian
+0.063,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.062,0,0,0,0,0,0.75,0.25,0,Multiracial
+0.062,0,1,0,0,0,0,0,0,Latino
+0.062,0,0,0,0.5,0.25,0.25,0,0,Multiracial
+0.062,0,1,0,0,0,0,0,0,Latino
+0.061,0,0,0,1,0,0,0,0,East Asian
+0.061,0,0.5,0,0.375,0,0,0.125,0,Multiracial
+0.061,0,0,1,0,0,0,0,0,Ashkenazi Jewish
+0.06,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.06,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.06,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.059,0.2,0,0,0,0,0.8,0,0,Multiracial
+0.059,0.8780487805,0.0243902439,0,0.06097560976,0,0.01219512195,0.0243902439,0,Multiracial
+0.059,1,0,0,0,0,0,0,0,African
+0.059,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.059,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.059,0,0,0,0,0,0,0,1,South Asian
+0.059,0,0,0,1,0,0,0,0,East Asian
+0.059,0,0,0,0.5714285714,0,0.2857142857,0,0.1428571429,Multiracial
+0.059,0,1,0,0,0,0,0,0,Latino
+0.059,0,0,0,0,0,0,0,1,South Asian
+0.059,0,0,0,0,0,0,0,1,South Asian
+0.059,0,0,0,0,0,0.5,0,0.5,Multiracial
+0.059,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.059,0,0,0,0,0,0,0,1,South Asian
+0.058,0.6666666667,0.3333333333,0,0,0,0,0,0,Multiracial
+0.058,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.058,1,0,0,0,0,0,0,0,African
+0.057,0,0,0,0,0,0.8,0.2,0,Multiracial
+0.057,0,0,0,0,0,0,0,1,South Asian
+0.057,0,0,0,0,0.3333333333,0.6666666667,0,0,Multiracial
+0.057,0,0,0,0,0,0,1,0,Other
+0.057,0,0.3333333333,0,0,0,0.6666666667,0,0,Multiracial
+0.057,1,0,0,0,0,0,0,0,African
+0.057,0,0,0,0,0,0.1666666667,0.1666666667,0.6666666667,Multiracial
+0.057,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.056,0,1,0,0,0,0,0,0,Latino
+0.056,0,0,0,0,0,0,0,1,South Asian
+0.056,0,1,0,0,0,0,0,0,Latino
+0.055,0,1,0,0,0,0,0,0,Latino
+0.055,0,0,0,0,0,0,0,1,South Asian
+0.055,0.5,0,0,0,0,0,0.5,0,Multiracial
+0.055,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.055,0,0,0,1,0,0,0,0,East Asian
+0.055,0,0.75,0,0,0,0.25,0,0,Multiracial
+0.055,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.054,1,0,0,0,0,0,0,0,African
+0.054,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.054,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.054,0,0,0,0,0,0,0,1,South Asian
+0.054,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.054,0,0,0,0,0,0,0.05555555556,0.9444444444,Multiracial
+0.053,1,0,0,0,0,0,0,0,African
+0.053,0.2,0.05,0,0.35,0.1,0.3,0,0,Multiracial
+0.053,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.053,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.053,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.053,0,0.5,0,0,0,0.3333333333,0.1666666667,0,Multiracial
+0.053,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.052,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.052,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.052,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.052,0,0,0,0,0,0,1,0,Other
+0.051,0,0,0,1,0,0,0,0,East Asian
+0.051,0,1,0,0,0,0,0,0,Latino
+0.051,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.05,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.05,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.05,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.05,0,0,0,0.8888888889,0,0.1111111111,0,0,Multiracial
+0.049,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.049,0,0,0,0,0,0,0,1,South Asian
+0.049,0.06666666667,0.1333333333,0.06666666667,0,0,0.5333333333,0.06666666667,0.1333333333,Multiracial
+0.049,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.049,0,0,0,0,0,0,0,1,South Asian
+0.048,0,0,0,1,0,0,0,0,East Asian
+0.048,0,0,0,0,0,0,0,1,South Asian
+0.048,0,0,0,0,0,0,1,0,Other
+0.048,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.048,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.047,0.5,0.5,0,0,0,0,0,0,Multiracial
+0.047,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.047,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.046,0.75,0,0,0,0,0.25,0,0,Multiracial
+0.046,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.046,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.046,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.046,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.046,0,0.05882352941,0,0,0,0.8823529412,0,0.05882352941,Multiracial
+0.046,0,0,0.5,0,0,0.5,0,0,Multiracial
+0.046,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.045,1,0,0,0,0,0,0,0,African
+0.045,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.045,0.01628400299,0.07773895683,0.09321187921,0.004866483654,0.04267531819,0.5723733466,0.03082106314,0.1620289493,Multiracial
+0.045,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.044,0,0,0,0.94092827,0.002109704641,0.01054852321,0.01054852321,0.0358649789,Multiracial
+0.044,0,0,0,0,1,0,0,0,European (Finnish)
+0.044,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.044,0,0,0,0,0,0.5,0,0.5,Multiracial
+0.044,0,0.7777777778,0,0,0,0.2222222222,0,0,Multiracial
+0.044,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.044,0,0.02564102564,0,0,0,0.02564102564,0,0.9487179487,Multiracial
+0.043,0,0,0,0,0,0,0,1,South Asian
+0.043,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.043,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.042,0,0,0,1,0,0,0,0,East Asian
+0.042,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.042,0,0,0,0,0,0,0,1,South Asian
+0.042,0,0,0,0,0,0,0,1,South Asian
+0.041,0.03703703704,0,0,0.07407407407,0,0.7777777778,0.1111111111,0,Multiracial
+0.041,0,1,0,0,0,0,0,0,Latino
+0.041,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.041,0,1,0,0,0,0,0,0,Latino
+0.041,0,0,0,0,0,0,0,1,South Asian
+0.041,0,0,0,0,0,0,0,1,South Asian
+0.04,0,0,0,0,0,0,0,1,South Asian
+0.039,0,0,0,1,0,0,0,0,East Asian
+0.039,0,0,0,0.9130434783,0,0,0.08695652174,0,Multiracial
+0.039,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.039,0,0,0,1,0,0,0,0,East Asian
+0.039,0,0,0,0.25,0,0.75,0,0,Multiracial
+0.039,1,0,0,0,0,0,0,0,African
+0.038,0.06451612903,0.2258064516,0,0,0,0.7096774194,0,0,Multiracial
+0.038,0,0,0,0,0,0,0,1,South Asian
+0.038,0,0,0.8333333333,0,0,0.1666666667,0,0,Multiracial
+0.038,1,0,0,0,0,0,0,0,African
+0.038,0,1,0,0,0,0,0,0,Latino
+0.038,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.038,0,0,0,1,0,0,0,0,East Asian
+0.037,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.037,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.037,0,0,0,0,0,0.5,0.5,0,Multiracial
+0.037,0,0,0,1,0,0,0,0,East Asian
+0.035,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.035,0,0,0,0,0,0,0,1,South Asian
+0.034,0,1,0,0,0,0,0,0,Latino
+0.034,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.033,0,0.3333333333,0,0,0,0.6666666667,0,0,Multiracial
+0.033,0,0,0,0,1,0,0,0,European (Finnish)
+0.032,0,0,0,0,0,0,0,1,South Asian
+0.032,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.032,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.031,0,0.1052631579,0,0,0.05263157895,0.8421052632,0,0,Multiracial
+0.031,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.03,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.03,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.03,0,1,0,0,0,0,0,0,Latino
+0.03,0,0,0,0,0,0,0,1,South Asian
+0.029,0,0.2,0,0,0,0.8,0,0,Multiracial
+0.029,0.07995852996,0.1261690262,0.03703703704,0.07132132132,0.08976833977,0.4606356356,0.02573287573,0.1093772344,Multiracial
+0.029,0.2,0.8,0,0,0,0,0,0,Multiracial
+0.029,0,0,0,0,0.3333333333,0.3333333333,0.3333333333,0,Multiracial
+0.029,0,0.5,0,0,0,0.5,0,0,Multiracial
+0.029,0,0,0,1,0,0,0,0,East Asian
+0.029,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.028,0,1,0,0,0,0,0,0,Latino
+0.027,0,0,0,0,0,0,0,1,South Asian
+0.027,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.027,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.027,0,1,0,0,0,0,0,0,Latino
+0.027,0,0,0,0,0,0,0,1,South Asian
+0.026,0,0,0,0,0,0,0,1,South Asian
+0.026,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.026,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.026,0,0,0,0,0,0,0,1,South Asian
+0.026,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.026,0,0,0,0,0,0,0,1,South Asian
+0.026,0,1,0,0,0,0,0,0,Latino
+0.026,0,1,0,0,0,0,0,0,Latino
+0.026,0,1,0,0,0,0,0,0,Latino
+0.026,0,0,0,0.5,0,0.5,0,0,Multiracial
+0.025,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.025,0,0,0,1,0,0,0,0,East Asian
+0.025,0,1,0,0,0,0,0,0,Latino
+0.024,0.3333333333,0,0,0,0,0.3333333333,0,0.3333333333,Multiracial
+0.024,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.024,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.024,0,0,0,1,0,0,0,0,East Asian
+0.024,0,0,0,0,0,0,0,1,South Asian
+0.023,0.5,0,0,0.5,0,0,0,0,Multiracial
+0.023,0.1481481481,0,0,0,0,0.8148148148,0.03703703704,0,Multiracial
+0.022,0,0,0,0,0,0,0,1,South Asian
+0.022,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.022,0,0,0,0.5,0,0,0,0.5,Multiracial
+0.022,0,0,0,0,0,0.4,0,0.6,Multiracial
+0.022,0.006944444444,0.003472222222,0,0,0,0.05555555556,0.01041666667,0.9236111111,Multiracial
+0.021,0.07142857143,0.07142857143,0,0,0,0.8571428571,0,0,Multiracial
+0.021,1,0,0,0,0,0,0,0,African
+0.021,0,0,0,1,0,0,0,0,East Asian
+0.02,1,0,0,0,0,0,0,0,African
+0.02,0,1,0,0,0,0,0,0,Latino
+0.02,1,0,0,0,0,0,0,0,African
+0.02,1,0,0,0,0,0,0,0,African
+0.02,0,0,0,0,0,0,0,1,South Asian
+0.019,0,1,0,0,0,0,0,0,Latino
+0.019,0,0,0,0,0,0,0,1,South Asian
+0.019,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.019,0,1,0,0,0,0,0,0,Latino
+0.019,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.019,0,0.5,0,0,0,0.5,0,0,Multiracial
+0.018,0,0,0,0,0,0.5,0,0.5,Multiracial
+0.017,0,0,0,0,0,0.875,0,0.125,Multiracial
+0.017,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.017,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.017,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.016,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.016,0,0,0,0,0,0.9375,0.0625,0,Multiracial
+0.014,0,0,0,1,0,0,0,0,East Asian
+0.013,0,0.380952381,0.04761904762,0,0,0.3333333333,0.1428571429,0.09523809524,Multiracial
+0.013,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.013,0.04545454545,0.5454545455,0,0,0,0.2727272727,0.1363636364,0,Multiracial
+0.012,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.012,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.012,0.5,0.5,0,0,0,0,0,0,Multiracial
+0.011,0,0,0,0.75,0,0,0,0.25,Multiracial
+0.01,1,0,0,0,0,0,0,0,African
+0.01,0,0,0,0,0,0,1,0,Other
+0.01,0,0,0,0,0,0,0,1,South Asian
+0.007,0,0,0,0,0,1,0,0,European (non-Finnish)
+0.006,0.5,0,0,0,0,0,0,0.5,Multiracial
+0.006,0,0.5,0,0,0,0.5,0,0,Multiracial
