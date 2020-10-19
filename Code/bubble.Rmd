@@ -186,7 +186,7 @@ fig_plot1
 inter1 <- ggplotly(fig_plot1, tooltip = "text", width = 1000, height = 500)
 inter1
 
-saveWidget(inter1, file = paste0("ggplotlyBubbleChartRaceFreq2.html"))
+saveWidget(inter1, file = paste0("BubbleChartRaceFreq.html"))
 
 ```
 
