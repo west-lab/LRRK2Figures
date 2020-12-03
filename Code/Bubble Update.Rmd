@@ -1,0 +1,60 @@
+---
+title: "GnomADFixed"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load packages & data
+
+```{r load-packages, message=FALSE}
+library(tidyverse)
+library(nnet)
+library(knitr)
+library(tidyr)
+library(plotly)
+library(ggplot2)
+library(dplyr)
+library(htmlwidgets)
+```
+
+```{r load_data}
+library(readxl)
+RaceFreq_rework <- read_excel("RaceFreq_rework.xlsx")
+```
+
+```{r}
+
+mybreaks <-c(0.005, 0.046, 0.23,1.0)
+myfix <- c(10.0,20.0,60.0,100.0)
+mycol <- c('#EF5350', '#EC407A', '#2CD931', '#5E35B1', '#2CD9D1', '#2196F3', '#263238', '#00796B', '#FBC02D')
+mybreakscol <-c(0.00, 0.5, 1.0)
+
+plp <- RaceFreq_rework %>%
+  mutate(text = paste("Variant: ", mutation_code, "\nFrequency: ", `pop freq. GnomAD`, "\nREVEL: ", `REVEL score`, "\nRace:", Race, sep="")) %>%
+  
+  # Classic ggplot
+  ggplot(aes(x = `AA #`, y = `REVEL score`, size = `Allele Frequency.y`, color = Race, text = text)) +
+    geom_point(alpha=0.5) +
+    scale_size(range = c(3,80), breaks = mybreaks, name = "") +
+    scale_color_manual(values = mycol, name = "") + 
+    scale_y_continuous(name="REVEL Score", limits=c(0, 1)) +
+    scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527)) + 
+  ggtitle("GnomAD Variants vs REVEL with Frequency") 
+# turn ggplot interactive with plotly
+ppp <- ggplotly(plp, tooltip="text")
+
+ppp <- ppp %>% layout(legend= list(itemsizing='constant'))
+ppp <- ppp %>% layout(legend=list(title=list(text='<b> Race </b>')))
+
+
+ppp
+
+# save the widget
+
+saveWidget(ppp, file=paste0("GNOMADRaceFreq.html"))
+
+
+```
