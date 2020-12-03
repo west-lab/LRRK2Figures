@@ -163,6 +163,7 @@ final <- merge(RevRace, race_frequencies_Sheet1, by = c("REVEL score", "Allele F
 
 
 ```{r}
+race_frequencies_Sheet_final$`AA #` <- as.numeric(race_frequencies_Sheet_final$`AA #`)
 mybreaks <-c(0.005, 0.046, 0.23,1.0)
 myfix <- c(10.0,20.0,60.0,100.0)
 mycol <- c('#EF5350', '#EC407A', '#2CD931', '#5E35B1', '#2CD9D1', '#2196F3', '#263238', '#00796B', '#FBC02D')
@@ -183,7 +184,7 @@ fig_plot1
 
 ```{r}
   
-inter1 <- ggplotly(fig_plot1, tooltip = "text", width = 1000, height = 500)
+inter1 <- ggplotly(fig_plot1, tooltip = "text")
 inter1
 
 saveWidget(inter1, file = paste0("BubbleChartRaceFreq.html"))
@@ -192,7 +193,38 @@ saveWidget(inter1, file = paste0("BubbleChartRaceFreq.html"))
 
 
 
+```{r}
+race_frequencies_Sheet_final$`AA #` <- as.numeric(race_frequencies_Sheet_final$`AA #`)
+mybreaks <-c(0.005, 0.046, 0.23,1.0)
+myfix <- c(10.0,20.0,60.0,100.0)
+mycol <- c('#EF5350', '#EC407A', '#2CD931', '#5E35B1', '#2CD9D1', '#2196F3', '#263238', '#00796B', '#FBC02D')
+mybreakscol <-c(0.00, 0.5, 1.0)
 
+#, color = race_frequencies_Sheet1$`Allele Frequency Latino`)
+
+fig_plot2 <- race_frequencies_Sheet_final %>%
+  mutate(text = paste("Mutation: ", race_frequencies_Sheet_final$mutation_code, "\nFrequency: ", race_frequencies_Sheet_final$`pop freq. GnomAD`, "\nREVEL score: ", race_frequencies_Sheet_final$REVEL,"\nRace: ", race_frequencies_Sheet_final$Race, sep = "")) %>%
+  arrange(desc(race_frequencies_Sheet_final$`Allele Frequency.y`)) %>%
+  mutate(freq = as.numeric(race_frequencies_Sheet_final$`Allele Frequency.y`)) %>%
+ggplot(aes(x = race_frequencies_Sheet_final$`AA #`, y = race_frequencies_Sheet_final$`REVEL score`, size = freq, color = race_frequencies_Sheet_final$`Race`, text = text)) + scale_size(range = c(3.0,80.0), breaks = mybreaks, name = "Frequency") + scale_y_continuous(name = "REVEL score", limits = c(0,1)) + scale_color_manual(values = mycol, name = "Race") + theme(legend.title = element_text(size = 15), legend.text = element_text(size = 15)) + xlab("Amino Acid Number") + labs(title = "gnomAD AA vs. REVEL with Freq")+geom_point(alpha = 0.5) + ggsave("bubble_race_frequency2.pdf", width = 25, height = 15, limitsize = FALSE)
+
+par(las = 3)
+
+fig_plot2
+
+inter2 <- ggplotly(fig_plot2, tooltip = "text")
+inter2
+
+saveWidget(inter1, file = paste0("BubbleChartRaceFreq2.html"))
+
+install.packages("writexl")
+
+library(writexl)
+
+write_xlsx(x = race_frequencies_Sheet_final, path = "finSheet.xlsx", col_names = TRUE)
+
+
+```
 
  ggsave("bubble_gnomAD_total.pdf", width = 35.0, height = 20.0, limitsize = FALSE) + 
 
