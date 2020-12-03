@@ -1,5 +1,5 @@
 ---
-title: "GnomADFixed"
+title: "GnomAD Plot"
 output: html_document
 ---
 
@@ -7,9 +7,9 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Load packages & data
 
-```{r load-packages, message=FALSE}
+
+```{r load-packages, include=FALSE}
 library(tidyverse)
 library(nnet)
 library(knitr)
@@ -20,12 +20,12 @@ library(dplyr)
 library(htmlwidgets)
 ```
 
-```{r load_data}
+```{r load_data, include=FALSE}
 library(readxl)
 RaceFreq_rework <- read_excel("RaceFreq_rework.xlsx")
 ```
 
-```{r}
+```{r, include=FALSE}
 
 mybreaks <-c(0.005, 0.046, 0.23,1.0)
 myfix <- c(10.0,20.0,60.0,100.0)
@@ -44,17 +44,21 @@ plp <- RaceFreq_rework %>%
     scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527)) + 
   ggtitle("GnomAD Variants vs REVEL with Frequency") 
 # turn ggplot interactive with plotly
-ppp <- ggplotly(plp, tooltip="text")
+FreqPlot <- ggplotly(plp, tooltip="text")
 
-ppp <- ppp %>% layout(legend= list(itemsizing='constant'))
-ppp <- ppp %>% layout(legend=list(title=list(text='<b> Race </b>')))
+FreqPlot <- FreqPlot %>% layout(legend= list(itemsizing='constant'))
+FreqPlot <- FreqPlot %>% layout(legend=list(title=list(text='<b> Race </b>')))
 
-
-ppp
 
 # save the widget
 
-saveWidget(ppp, file="BubbleChartRaceFreq.html")
+saveWidget(FreqPlot, file="BubbleChartRaceFreq.html")
+```
+
+```{r}
+
+FreqPlot
+```
 
 
 ```
