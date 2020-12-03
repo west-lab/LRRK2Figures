@@ -54,7 +54,7 @@ ppp
 
 # save the widget
 
-saveWidget(ppp, file=paste0("GNOMADRaceFreq.html"))
+saveWidget(ppp, file="GNOMADRaceFreq.html")
 
 
 ```
