@@ -1,7 +1,7 @@
 ---
 title: "Bubble Plot Figures"
 author: "Julia Ziaee"
-date: "5/19/2020"
+date: "1/17/2021"
 output: html_document
 ---
 
@@ -24,17 +24,17 @@ library(viridis)
 
 ## Bubble Plot
 ```{r}
-Kernel_Data$number <- as.numeric(Kernel_Data$number)
-Kernel_Data$revel <- as.double(Kernel_Data$revel)
+Copy_of_Variant_table_V2$number <- as.numeric(Copy_of_Variant_table_V2$number)
+Copy_of_Variant_table_V2$revel <- as.double(Copy_of_Variant_table_V2$revel)
 ```
 
 ```{r}
 
 mybreaks <- c(0.002, 0.046, 0.23, 0.715)
 myfix <- c(10, 30, 60, 100)
-mycols <- c('#2C6CEC', '#26AB1C', '#ED564D', '#AF67E4')
+mycols <- c('#2C6CEC', '#26AB1C', '#ED564D','#AF67E4' )
 
-fig_plot <- Kernel_Data %>% 
+fig_plot <- Copy_of_Variant_table_V2 %>% 
   arrange(desc(freq)) %>%
   mutate(status = factor(status, unique(status))) %>%
   mutate(freq = as.numeric(freq))%>%
@@ -45,16 +45,11 @@ fig_plot <- Kernel_Data %>%
     scale_y_continuous(name="REVEL Score", limits=c(0, 1)) +
     scale_x_continuous(name = "Amino Acid Number", limits = c(0, 2527)) +
   theme(legend.title = element_text(size = 20), legend.text = element_text(size = 20)) +
-      ggsave("ampPD_Bubble.pdf", width=50, height = 25, limitsize = FALSE)
+      ggsave("ampPD_BubbleV2.pdf", width=50, height = 25, limitsize = FALSE)
   
 
-
-fig_plot
     
 ```
-
-
-
 
 ## Interactive 
 
@@ -62,9 +57,9 @@ fig_plot
 
 mybreaks <- c(0.002, 0.046, 0.23, 0.715)
 myfix <- c(10, 30, 60, 100)
-mycols <- c('#AF67E4', '#2C6CEC', '#26AB1C', '#ED564D')
+mycols <- c('#ED564D', '#2C6CEC', '#26AB1C', '#AF67E4')
 
-pl <- Kernel_Data %>%
+pl <- Copy_of_Variant_table_V2 %>%
   mutate(text = paste("Variant: ", mutation_code, "\nFrequency: ", freq, "\nREVEL: ", revel, sep="")) %>%
   
   # Classic ggplot
@@ -86,7 +81,7 @@ pp
 
 # save the widget
 
-saveWidget(pp, file=paste0("AMP-PD_LRRK2_V2.html"))
+saveWidget(pp, file=paste0("AMP-PD_LRRK2_New.html"))
 
 
 ```

@@ -52,7 +52,7 @@ FreqPlot <- FreqPlot %>% layout(legend=list(title=list(text='<b> Race </b>')))
 
 # save the widget
 
-saveWidget(FreqPlot, file="BubbleChartRaceFreq.html")
+saveWidget(FreqPlot, file="index.html")
 ```
 
 ```{r}
@@ -60,5 +60,3 @@ saveWidget(FreqPlot, file="BubbleChartRaceFreq.html")
 FreqPlot
 ```
 
-
-```
